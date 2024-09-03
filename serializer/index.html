@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>serializer-cpp: Main Page</title>
+<title>serializer-cpp: Serializer-cpp</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -81,11 +81,56 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </iframe>
 </div>
 
-<div class="header">
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">serializer-cpp Documentation</div>  </div>
+<div class="title">Serializer-cpp </div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p><a class="anchor" id="md__home_rvc1_Documents_dev_projects_serializer_serializer_cpp_README"></a> <code>serializer-cpp</code> is a C++20 binary serialization library. The library povides very generic functions that can handle most of the types of the standard library and more. It also provides some convenient macros that generate some code automatically.</p>
+<p>The best way to learn how to use the lib is to check the <a href="https://github.com/drfailer/serializer-cpp/wiki">wiki</a>.</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Features</h1>
+<ul>
+<li>Easy serialization by writting minimal code.</li>
+<li>Automatic serialization for most of the types of the standard library and more.</li>
+<li>Support for polymorphic types.</li>
+<li>Identifiers for deserializing and managing objects with a type not known at compile time.</li>
+<li>Lite binary output format.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Example</h1>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;serializer/serializer.hpp&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;serializer/tools/macros.hpp&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">class </span>MyClass {</div>
+<div class="line">  <span class="keyword">public</span>:</div>
+<div class="line">    <span class="comment">/* ... */</span></div>
+<div class="line">    SERIALIZE(x_, y_, str_)</div>
+<div class="line"> </div>
+<div class="line">  <span class="keyword">private</span>:</div>
+<div class="line">    <span class="keywordtype">int</span> x_;</div>
+<div class="line">    <span class="keywordtype">int</span> y_;</div>
+<div class="line">    std::string str_;</div>
+<div class="line">};</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">void</span> main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>** argv) {</div>
+<div class="line">    MyClass s1(1, 2, <span class="stringliteral">&quot;three&quot;</span>);</div>
+<div class="line">    MyClass s2;</div>
+<div class="line">    <a class="code" href="namespaceserializer.html#a04a1bed80988c8fa5dbefabe1efeae07">serializer::Bytes</a> result;</div>
+<div class="line"> </div>
+<div class="line">    s1.serialize(result);</div>
+<div class="line">    s2.deserialize(result);</div>
+<div class="line">    <span class="comment">/* s1 == s2 */</span></div>
+<div class="line">}</div>
+<div class="ttc" id="anamespaceserializer_html_a04a1bed80988c8fa5dbefabe1efeae07"><div class="ttname"><a href="namespaceserializer.html#a04a1bed80988c8fa5dbefabe1efeae07">serializer::Bytes</a></div><div class="ttdeci">serializer::tools::Bytes&lt; std::byte &gt; Bytes</div><div class="ttdoc">@breif alias for bytes</div><div class="ttdef"><b>Definition:</b> serializer.hpp:19</div></div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
+Alternatives</h1>
+<ul>
+<li><a href="https://github.com/eyalz800/zpp_bits">zpp_bits</a></li>
+<li><a href="https://uscilab.github.io/cereal/">cereal</a></li>
+<li><a href="https://github.com/felixguendling/cista">cista</a> </li>
+</ul>
+</div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

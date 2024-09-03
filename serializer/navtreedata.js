@@ -25,6 +25,9 @@
 var NAVTREE =
 [
   [ "serializer-cpp", "index.html", [
+    [ "Features", "index.html#autotoc_md1", null ],
+    [ "Example", "index.html#autotoc_md2", null ],
+    [ "Alternatives", "index.html#autotoc_md3", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
