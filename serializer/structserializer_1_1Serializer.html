@@ -188,7 +188,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a92946fe12710a000adc48bf84b080710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad958d6cb0e3be7e4052dda5f1fb138a3"><td class="memTemplParams" colspan="2">template&lt;serializer::concepts::ConcretePtr T&gt; </td></tr>
 <tr class="memitem:ad958d6cb0e3be7e4052dda5f1fb138a3"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structserializer_1_1Serializer.html#ad958d6cb0e3be7e4052dda5f1fb138a3">requires</a> (!<a class="el" href="namespaceserializer_1_1mtf.html#a899c6310451ae5d12a1bffffb5d8aa67">mtf::contains_v</a>&lt; T, AdditionalTypes... &gt; &amp;&amp;!<a class="el" href="namespaceserializer_1_1tools.html#a302aede0d36fabb09a31f050a18429a6">tools::has_type_v</a>&lt; T, TypeTable &gt;) inline const expr void <a class="el" href="structserializer_1_1Serializer.html#a34506a0ccca983d12caaaebb444f6532">deserialize_</a>(T &amp;&amp;elt)</td></tr>
-<tr class="memdesc:ad958d6cb0e3be7e4052dda5f1fb138a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize function for the pointer types. If the pointer is not null, a dynamic allocation is perfsset 56973 has been removed Waiver Form PIV LONG TERM Eormed before deserializing the result. This memory should be handled by the user.  <a href="structserializer_1_1Serializer.html#ad958d6cb0e3be7e4052dda5f1fb138a3">More...</a><br /></td></tr>
+<tr class="memdesc:ad958d6cb0e3be7e4052dda5f1fb138a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize function for the pointer types. If the pointer is not null, a dynamic allocation is done. This memory should be handled by the user.  <a href="structserializer_1_1Serializer.html#ad958d6cb0e3be7e4052dda5f1fb138a3">More...</a><br /></td></tr>
 <tr class="separator:ad958d6cb0e3be7e4052dda5f1fb138a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92946fe12710a000adc48bf84b080710"><td class="memTemplParams" colspan="2">template&lt;serializer::concepts::SmartPtr T&gt; </td></tr>
 <tr class="memitem:a92946fe12710a000adc48bf84b080710"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structserializer_1_1Serializer.html#a92946fe12710a000adc48bf84b080710">requires</a> (!<a class="el" href="namespaceserializer_1_1mtf.html#a899c6310451ae5d12a1bffffb5d8aa67">mtf::contains_v</a>&lt; T, AdditionalTypes... &gt; &amp;&amp;!<a class="el" href="namespaceserializer_1_1tools.html#a302aede0d36fabb09a31f050a18429a6">tools::has_type_v</a>&lt; T, TypeTable &gt;) inline const expr void <a class="el" href="structserializer_1_1Serializer.html#a794704114d900d49f9132c64fc0378d4">serialize_</a>(T &amp;&amp;elt)</td></tr>
@@ -989,7 +989,7 @@ template&lt;serializer::concepts::ConcretePtr T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Deserialize function for the pointer types. If the pointer is not null, a dynamic allocation is perfsset 56973 has been removed Waiver Form PIV LONG TERM Eormed before deserializing the result. This memory should be handled by the user. </p>
+<p>Deserialize function for the pointer types. If the pointer is not null, a dynamic allocation is done. This memory should be handled by the user. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">elt</td><td>Element that is deserialized. </td></tr>
