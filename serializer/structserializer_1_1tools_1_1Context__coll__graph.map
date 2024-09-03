@@ -1,0 +1,5 @@
+<map id="serializer::tools::Context&lt; Phase, Serializer &gt;" name="serializer::tools::Context&lt; Phase, Serializer &gt;">
+<area shape="rect" id="node1" title="Reporesents the context given the the serializer functions." alt="" coords="12,215,223,256"/>
+<area shape="rect" id="node2" href="$structserializer_1_1Serializer.html" title="Default serializer that contains the functions for serializing and deserializing types from the stand..." alt="" coords="5,96,229,152"/>
+<area shape="rect" id="node3" href="$structserializer_1_1Serialize.html" title=" " alt="" coords="40,5,195,47"/>
+</map>

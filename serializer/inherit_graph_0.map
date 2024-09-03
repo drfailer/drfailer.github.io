@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,120,105"/>
+<area shape="rect" id="node2" href="$classserializer_1_1exceptions_1_1AbstractTypeError.html" title="Exception for unsupported types." alt="" coords="183,5,365,47"/>
+<area shape="rect" id="node3" href="$classserializer_1_1exceptions_1_1IdNotFoundError.html" title="Exception for id not found in the type table." alt="" coords="193,71,355,112"/>
+<area shape="rect" id="node4" href="$classserializer_1_1exceptions_1_1UnsupportedTypeError.html" title="Exception for unsupported types." alt="" coords="168,136,380,177"/>
+</map>
