@@ -15,14 +15,14 @@
 <polygon fill="none" stroke="orange" points="20,-137 20,-573.44 868,-573.44 868,-137 20,-137"/>
 <text text-anchor="middle" x="141" y="-558.24" font-family="Times,serif" font-size="14.00">FIND_BACK_THIN_WALL_CELL</text>
 </g>
-<!-- start_SUBPROGRAM_8b13560 -->
+<!-- start_SUBPROGRAM_98bb680 -->
 <g id="node1" class="node">
-<title>start_SUBPROGRAM_8b13560</title>
+<title>start_SUBPROGRAM_98bb680</title>
 <ellipse fill="none" stroke="black" cx="444" cy="-1143.44" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_8957680+1 -->
+<!-- COMMENT_94b0480+1 -->
 <g id="node2" class="node">
-<title>COMMENT_8957680+1</title>
+<title>COMMENT_94b0480+1</title>
 <polygon fill="none" stroke="black" points="882,-1100.44 0,-1100.44 0,-1017.44 888,-1017.44 888,-1094.44 882,-1100.44"/>
 <polyline fill="none" stroke="black" points="882,-1100.44 882,-1094.44 "/>
 <polyline fill="none" stroke="black" points="888,-1094.44 882,-1094.44 "/>
@@ -32,44 +32,44 @@
 <text text-anchor="middle" x="444" y="-1040.24" font-family="Times,serif" font-size="14.00">!&gt; details ITW is the index of a thin wall cell, which can be thought of as segment of the edge of a single thin obstruction.</text>
 <text text-anchor="middle" x="444" y="-1025.24" font-family="Times,serif" font-size="14.00">!&gt; This routine marches from edge to opposite edge looking for the &quot;back&quot; thin wall index.</text>
 </g>
-<!-- start_SUBPROGRAM_8b13560&#45;&gt;COMMENT_8957680+1 -->
+<!-- start_SUBPROGRAM_98bb680&#45;&gt;COMMENT_94b0480+1 -->
 <g id="edge1" class="edge">
-<title>start_SUBPROGRAM_8b13560&#45;&gt;COMMENT_8957680+1</title>
+<title>start_SUBPROGRAM_98bb680&#45;&gt;COMMENT_94b0480+1</title>
 <path fill="none" stroke="black" d="M444,-1136.24C444,-1130.33 444,-1120.83 444,-1110.51"/>
 <polygon fill="black" stroke="black" points="447.5,-1110.45 444,-1100.45 440.5,-1110.45 447.5,-1110.45"/>
 </g>
-<!-- COMMENT_89b0fe0+1 -->
+<!-- COMMENT_985ef20+1 -->
 <g id="node3" class="node">
-<title>COMMENT_89b0fe0+1</title>
+<title>COMMENT_985ef20+1</title>
 <polygon fill="none" stroke="black" points="874.5,-981.44 7.5,-981.44 7.5,-945.44 880.5,-945.44 880.5,-975.44 874.5,-981.44"/>
 <polyline fill="none" stroke="black" points="874.5,-981.44 874.5,-975.44 "/>
 <polyline fill="none" stroke="black" points="880.5,-975.44 874.5,-975.44 "/>
 <text text-anchor="middle" x="444" y="-959.74" font-family="Times,serif" font-size="14.00">If OBSTstruction to which the thin wall cell is attached has no material index, use the indices associated with the SURF</text>
 </g>
-<!-- COMMENT_8957680+1&#45;&gt;COMMENT_89b0fe0+1 -->
+<!-- COMMENT_94b0480+1&#45;&gt;COMMENT_985ef20+1 -->
 <g id="edge2" class="edge">
-<title>COMMENT_8957680+1&#45;&gt;COMMENT_89b0fe0+1</title>
+<title>COMMENT_94b0480+1&#45;&gt;COMMENT_985ef20+1</title>
 <path fill="none" stroke="black" d="M444,-1017.2C444,-1008.68 444,-999.88 444,-991.97"/>
 <polygon fill="black" stroke="black" points="447.5,-991.85 444,-981.85 440.5,-991.85 447.5,-991.85"/>
 </g>
-<!-- COMMENT_89ba9c0+1 -->
+<!-- COMMENT_986aaa0+1 -->
 <g id="node4" class="node">
-<title>COMMENT_89ba9c0+1</title>
+<title>COMMENT_986aaa0+1</title>
 <polygon fill="none" stroke="black" points="824.5,-909.44 57.5,-909.44 57.5,-871.44 830.5,-871.44 830.5,-903.44 824.5,-909.44"/>
 <polyline fill="none" stroke="black" points="824.5,-909.44 824.5,-903.44 "/>
 <polyline fill="none" stroke="black" points="830.5,-903.44 824.5,-903.44 "/>
 <text text-anchor="middle" x="444" y="-894.24" font-family="Times,serif" font-size="14.00">Form an array of N_MATLS material indices, MATL_INDEX, for this thin wall cell. This</text>
 <text text-anchor="middle" x="444" y="-879.24" font-family="Times,serif" font-size="14.00">list accounts for all materials associated with the OBSTs and SURFs along the distance through the solid.</text>
 </g>
-<!-- COMMENT_89b0fe0+1&#45;&gt;COMMENT_89ba9c0+1 -->
+<!-- COMMENT_985ef20+1&#45;&gt;COMMENT_986aaa0+1 -->
 <g id="edge3" class="edge">
-<title>COMMENT_89b0fe0+1&#45;&gt;COMMENT_89ba9c0+1</title>
+<title>COMMENT_985ef20+1&#45;&gt;COMMENT_986aaa0+1</title>
 <path fill="none" stroke="black" d="M444,-945.25C444,-937.55 444,-928.26 444,-919.59"/>
 <polygon fill="black" stroke="black" points="447.5,-919.46 444,-909.46 440.5,-919.46 447.5,-919.46"/>
 </g>
-<!-- CALL_89ba9c0 -->
+<!-- CALL_986aaa0 -->
 <g id="node5" class="node">
-<title>CALL_89ba9c0</title>
+<title>CALL_986aaa0</title>
 <g id="a_node5"><a xlink:href="ADD_MATERIAL.svg" xlink:title="ADD_MATERIAL">
 <polygon fill="lightgray" stroke="black" points="510.5,-835.44 377.5,-835.44 377.5,-831.44 373.5,-831.44 373.5,-827.44 377.5,-827.44 377.5,-807.44 373.5,-807.44 373.5,-803.44 377.5,-803.44 377.5,-799.44 510.5,-799.44 510.5,-835.44"/>
 <polyline fill="none" stroke="black" points="377.5,-831.44 381.5,-831.44 381.5,-827.44 377.5,-827.44 "/>
@@ -78,68 +78,68 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_89ba9c0+1&#45;&gt;CALL_89ba9c0 -->
+<!-- COMMENT_986aaa0+1&#45;&gt;CALL_986aaa0 -->
 <g id="edge4" class="edge">
-<title>COMMENT_89ba9c0+1&#45;&gt;CALL_89ba9c0</title>
+<title>COMMENT_986aaa0+1&#45;&gt;CALL_986aaa0</title>
 <path fill="none" stroke="black" d="M444,-871.16C444,-863.41 444,-854.23 444,-845.71"/>
 <polygon fill="black" stroke="black" points="447.5,-845.44 444,-835.44 440.5,-845.44 447.5,-845.44"/>
 </g>
-<!-- COMMENT_89bb200+1 -->
+<!-- COMMENT_986b280+1 -->
 <g id="node6" class="node">
-<title>COMMENT_89bb200+1</title>
+<title>COMMENT_986b280+1</title>
 <polygon fill="none" stroke="black" points="812,-763.44 70,-763.44 70,-725.44 818,-725.44 818,-757.44 812,-763.44"/>
 <polyline fill="none" stroke="black" points="812,-763.44 812,-757.44 "/>
 <polyline fill="none" stroke="black" points="818,-757.44 812,-757.44 "/>
 <text text-anchor="middle" x="444" y="-748.24" font-family="Times,serif" font-size="14.00">A thin wall cell only has one layer and one obstruction. This loop transfers the material mass fractions</text>
 <text text-anchor="middle" x="444" y="-733.24" font-family="Times,serif" font-size="14.00">from the OBST to the save array.</text>
 </g>
-<!-- CALL_89ba9c0&#45;&gt;COMMENT_89bb200+1 -->
+<!-- CALL_986aaa0&#45;&gt;COMMENT_986b280+1 -->
 <g id="edge5" class="edge">
-<title>CALL_89ba9c0&#45;&gt;COMMENT_89bb200+1</title>
+<title>CALL_986aaa0&#45;&gt;COMMENT_986b280+1</title>
 <path fill="none" stroke="black" d="M444,-799.25C444,-791.55 444,-782.26 444,-773.59"/>
 <polygon fill="black" stroke="black" points="447.5,-773.46 444,-763.46 440.5,-773.46 447.5,-773.46"/>
 </g>
-<!-- COMMENT_89c0940+1 -->
+<!-- COMMENT_9870960+1 -->
 <g id="node7" class="node">
-<title>COMMENT_89c0940+1</title>
+<title>COMMENT_9870960+1</title>
 <polygon fill="none" stroke="black" points="692.5,-689.44 189.5,-689.44 189.5,-653.44 698.5,-653.44 698.5,-683.44 692.5,-689.44"/>
 <polyline fill="none" stroke="black" points="692.5,-689.44 692.5,-683.44 "/>
 <polyline fill="none" stroke="black" points="698.5,-683.44 692.5,-683.44 "/>
 <text text-anchor="middle" x="444" y="-667.74" font-family="Times,serif" font-size="14.00">Find one or two WALL cells that are adjacent to this THIN_WALL cell</text>
 </g>
-<!-- COMMENT_89bb200+1&#45;&gt;COMMENT_89c0940+1 -->
+<!-- COMMENT_986b280+1&#45;&gt;COMMENT_9870960+1 -->
 <g id="edge6" class="edge">
-<title>COMMENT_89bb200+1&#45;&gt;COMMENT_89c0940+1</title>
+<title>COMMENT_986b280+1&#45;&gt;COMMENT_9870960+1</title>
 <path fill="none" stroke="black" d="M444,-725.16C444,-717.41 444,-708.23 444,-699.71"/>
 <polygon fill="black" stroke="black" points="447.5,-699.44 444,-689.44 440.5,-699.44 447.5,-699.44"/>
 </g>
-<!-- COMMENT_89df820+1 -->
+<!-- COMMENT_9890a00+1 -->
 <g id="node8" class="node">
-<title>COMMENT_89df820+1</title>
+<title>COMMENT_9890a00+1</title>
 <polygon fill="none" stroke="black" points="788.5,-617.44 93.5,-617.44 93.5,-581.44 794.5,-581.44 794.5,-611.44 788.5,-617.44"/>
 <polyline fill="none" stroke="black" points="788.5,-617.44 788.5,-611.44 "/>
 <polyline fill="none" stroke="black" points="794.5,-611.44 788.5,-611.44 "/>
 <text text-anchor="middle" x="444" y="-595.74" font-family="Times,serif" font-size="14.00">Look for the back THIN_WALL cell; that is, the thin wall cell on the other side of the obstruction</text>
 </g>
-<!-- COMMENT_89c0940+1&#45;&gt;COMMENT_89df820+1 -->
+<!-- COMMENT_9870960+1&#45;&gt;COMMENT_9890a00+1 -->
 <g id="edge7" class="edge">
-<title>COMMENT_89c0940+1&#45;&gt;COMMENT_89df820+1</title>
+<title>COMMENT_9870960+1&#45;&gt;COMMENT_9890a00+1</title>
 <path fill="none" stroke="black" d="M444,-653.14C444,-645.42 444,-636.15 444,-627.55"/>
 <polygon fill="black" stroke="black" points="447.5,-627.54 444,-617.54 440.5,-627.54 447.5,-627.54"/>
 </g>
-<!-- beginDO_DO_8b0cae0 -->
+<!-- beginDO_DO_98bc080 -->
 <g id="node9" class="node">
-<title>beginDO_DO_8b0cae0</title>
+<title>beginDO_DO_98bc080</title>
 <ellipse fill="black" stroke="black" cx="444" cy="-542.08" rx="0.36" ry="0.36"/>
 </g>
-<!-- COMMENT_89df820+1&#45;&gt;beginDO_DO_8b0cae0 -->
+<!-- COMMENT_9890a00+1&#45;&gt;beginDO_DO_98bc080 -->
 <g id="edge13" class="edge">
-<title>COMMENT_89df820+1&#45;&gt;beginDO_DO_8b0cae0</title>
+<title>COMMENT_9890a00+1&#45;&gt;beginDO_DO_98bc080</title>
 <path fill="none" stroke="black" d="M444,-581.23C444,-565.48 444,-544.44 444,-543.14"/>
 </g>
-<!-- CALL_89f08e0 -->
+<!-- CALL_98a1420 -->
 <g id="node11" class="node">
-<title>CALL_89f08e0</title>
+<title>CALL_98a1420</title>
 <g id="a_node11"><a xlink:href="SEARCH_OTHER_MESHES.svg" xlink:title="SEARCH_OTHER_MESHES">
 <polygon fill="lightgray" stroke="black" points="550.5,-505.72 337.5,-505.72 337.5,-501.72 333.5,-501.72 333.5,-497.72 337.5,-497.72 337.5,-477.72 333.5,-477.72 333.5,-473.72 337.5,-473.72 337.5,-469.72 550.5,-469.72 550.5,-505.72"/>
 <polyline fill="none" stroke="black" points="337.5,-501.72 341.5,-501.72 341.5,-497.72 337.5,-497.72 "/>
@@ -148,48 +148,48 @@
 </a>
 </g>
 </g>
-<!-- beginDO_DO_8b0cae0&#45;&gt;CALL_89f08e0 -->
+<!-- beginDO_DO_98bc080&#45;&gt;CALL_98a1420 -->
 <g id="edge8" class="edge">
-<title>beginDO_DO_8b0cae0&#45;&gt;CALL_89f08e0</title>
+<title>beginDO_DO_98bc080&#45;&gt;CALL_98a1420</title>
 <path fill="none" stroke="black" d="M444,-541.57C444,-540.09 444,-528.04 444,-515.82"/>
 <polygon fill="black" stroke="black" points="447.5,-515.74 444,-505.74 440.5,-515.74 447.5,-515.74"/>
 </g>
-<!-- endDO_DO_8b0cae0 -->
+<!-- endDO_DO_98bc080 -->
 <g id="node10" class="node">
-<title>endDO_DO_8b0cae0</title>
+<title>endDO_DO_98bc080</title>
 <ellipse fill="black" stroke="black" cx="444" cy="-145.36" rx="0.36" ry="0.36"/>
 </g>
-<!-- COMMENT_8b0aa20+1 -->
+<!-- COMMENT_98be440+1 -->
 <g id="node16" class="node">
-<title>COMMENT_8b0aa20+1</title>
+<title>COMMENT_98be440+1</title>
 <polygon fill="none" stroke="black" points="849,-109 33,-109 33,-73 855,-73 855,-103 849,-109"/>
 <polyline fill="none" stroke="black" points="849,-109 849,-103 "/>
 <polyline fill="none" stroke="black" points="855,-103 849,-103 "/>
 <text text-anchor="middle" x="444" y="-87.3" font-family="Times,serif" font-size="14.00">Take the array of MATL_INDEX and MATL_MASS_FRACTION and save them in the ONE_D derived type variable.</text>
 </g>
-<!-- endDO_DO_8b0cae0&#45;&gt;COMMENT_8b0aa20+1 -->
+<!-- endDO_DO_98bc080&#45;&gt;COMMENT_98be440+1 -->
 <g id="edge15" class="edge">
-<title>endDO_DO_8b0cae0&#45;&gt;COMMENT_8b0aa20+1</title>
+<title>endDO_DO_98bc080&#45;&gt;COMMENT_98be440+1</title>
 <path fill="none" stroke="black" d="M444,-144.21C444,-142.77 444,-131.23 444,-119.36"/>
 <polygon fill="black" stroke="black" points="447.5,-119.1 444,-109.1 440.5,-119.1 447.5,-119.1"/>
 </g>
-<!-- COMMENT_89f17a0+1 -->
+<!-- COMMENT_989fb20+1 -->
 <g id="node12" class="node">
-<title>COMMENT_89f17a0+1</title>
+<title>COMMENT_989fb20+1</title>
 <polygon fill="none" stroke="black" points="781.5,-433.72 100.5,-433.72 100.5,-397.72 787.5,-397.72 787.5,-427.72 781.5,-433.72"/>
 <polyline fill="none" stroke="black" points="781.5,-433.72 781.5,-427.72 "/>
 <polyline fill="none" stroke="black" points="787.5,-427.72 781.5,-427.72 "/>
 <text text-anchor="middle" x="444" y="-412.02" font-family="Times,serif" font-size="14.00">Look for the other side of the thin obstruction, using its ORDINAL value as a unique identifier</text>
 </g>
-<!-- CALL_89f08e0&#45;&gt;COMMENT_89f17a0+1 -->
+<!-- CALL_98a1420&#45;&gt;COMMENT_989fb20+1 -->
 <g id="edge9" class="edge">
-<title>CALL_89f08e0&#45;&gt;COMMENT_89f17a0+1</title>
+<title>CALL_98a1420&#45;&gt;COMMENT_989fb20+1</title>
 <path fill="none" stroke="black" d="M444,-469.42C444,-461.7 444,-452.43 444,-443.83"/>
 <polygon fill="black" stroke="black" points="447.5,-443.82 444,-433.82 440.5,-443.82 447.5,-443.82"/>
 </g>
-<!-- CALL_89fdac0 -->
+<!-- CALL_98ae820 -->
 <g id="node13" class="node">
-<title>CALL_89fdac0</title>
+<title>CALL_98ae820</title>
 <g id="a_node13"><a xlink:href="REALLOCATE_INTEGER_ARRAY.svg" xlink:title="REALLOCATE_INTEGER_ARRAY">
 <polygon fill="lightgray" stroke="black" points="568,-361.72 320,-361.72 320,-357.72 316,-357.72 316,-353.72 320,-353.72 320,-333.72 316,-333.72 316,-329.72 320,-329.72 320,-325.72 568,-325.72 568,-361.72"/>
 <polyline fill="none" stroke="black" points="320,-357.72 324,-357.72 324,-353.72 320,-353.72 "/>
@@ -198,15 +198,15 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_89f17a0+1&#45;&gt;CALL_89fdac0 -->
+<!-- COMMENT_989fb20+1&#45;&gt;CALL_98ae820 -->
 <g id="edge10" class="edge">
-<title>COMMENT_89f17a0+1&#45;&gt;CALL_89fdac0</title>
+<title>COMMENT_989fb20+1&#45;&gt;CALL_98ae820</title>
 <path fill="none" stroke="black" d="M444,-397.42C444,-389.7 444,-380.43 444,-371.83"/>
 <polygon fill="black" stroke="black" points="447.5,-371.82 444,-361.82 440.5,-371.82 447.5,-371.82"/>
 </g>
-<!-- CALL_89ff100 -->
+<!-- CALL_98afe80 -->
 <g id="node14" class="node">
-<title>CALL_89ff100</title>
+<title>CALL_98afe80</title>
 <g id="a_node14"><a xlink:href="REALLOCATE_INTEGER_ARRAY.svg" xlink:title="REALLOCATE_INTEGER_ARRAY">
 <polygon fill="lightgray" stroke="black" points="568,-289.72 320,-289.72 320,-285.72 316,-285.72 316,-281.72 320,-281.72 320,-261.72 316,-261.72 316,-257.72 320,-257.72 320,-253.72 568,-253.72 568,-289.72"/>
 <polyline fill="none" stroke="black" points="320,-285.72 324,-285.72 324,-281.72 320,-281.72 "/>
@@ -215,39 +215,39 @@
 </a>
 </g>
 </g>
-<!-- CALL_89fdac0&#45;&gt;CALL_89ff100 -->
+<!-- CALL_98ae820&#45;&gt;CALL_98afe80 -->
 <g id="edge11" class="edge">
-<title>CALL_89fdac0&#45;&gt;CALL_89ff100</title>
+<title>CALL_98ae820&#45;&gt;CALL_98afe80</title>
 <path fill="none" stroke="black" d="M444,-325.42C444,-317.7 444,-308.43 444,-299.83"/>
 <polygon fill="black" stroke="black" points="447.5,-299.82 444,-289.82 440.5,-299.82 447.5,-299.82"/>
 </g>
-<!-- COMMENT_8b07e80+1 -->
+<!-- COMMENT_98bafc0+1 -->
 <g id="node15" class="node">
-<title>COMMENT_8b07e80+1</title>
+<title>COMMENT_98bafc0+1</title>
 <polygon fill="none" stroke="black" points="853.5,-217.72 28.5,-217.72 28.5,-181.72 859.5,-181.72 859.5,-211.72 853.5,-217.72"/>
 <polyline fill="none" stroke="black" points="853.5,-217.72 853.5,-211.72 "/>
 <polyline fill="none" stroke="black" points="859.5,-211.72 853.5,-211.72 "/>
 <text text-anchor="middle" x="444" y="-196.02" font-family="Times,serif" font-size="14.00">If the back thin wall index is not found, update the cell indices and continue marching deeper into the obstruction</text>
 </g>
-<!-- CALL_89ff100&#45;&gt;COMMENT_8b07e80+1 -->
+<!-- CALL_98afe80&#45;&gt;COMMENT_98bafc0+1 -->
 <g id="edge12" class="edge">
-<title>CALL_89ff100&#45;&gt;COMMENT_8b07e80+1</title>
+<title>CALL_98afe80&#45;&gt;COMMENT_98bafc0+1</title>
 <path fill="none" stroke="black" d="M444,-253.42C444,-245.7 444,-236.43 444,-227.83"/>
 <polygon fill="black" stroke="black" points="447.5,-227.82 444,-217.82 440.5,-227.82 447.5,-227.82"/>
 </g>
-<!-- COMMENT_8b07e80+1&#45;&gt;endDO_DO_8b0cae0 -->
+<!-- COMMENT_98bafc0+1&#45;&gt;endDO_DO_98bc080 -->
 <g id="edge14" class="edge">
-<title>COMMENT_8b07e80+1&#45;&gt;endDO_DO_8b0cae0</title>
+<title>COMMENT_98bafc0+1&#45;&gt;endDO_DO_98bc080</title>
 <path fill="none" stroke="black" d="M444,-181.66C444,-166.65 444,-146.99 444,-145.78"/>
 </g>
-<!-- end_SUBPROGRAM_8b13560 -->
+<!-- end_SUBPROGRAM_98bb680 -->
 <g id="node17" class="node">
-<title>end_SUBPROGRAM_8b13560</title>
+<title>end_SUBPROGRAM_98bb680</title>
 <ellipse fill="black" stroke="black" cx="444" cy="-30" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_8b0aa20+1&#45;&gt;end_SUBPROGRAM_8b13560 -->
+<!-- COMMENT_98be440+1&#45;&gt;end_SUBPROGRAM_98bb680 -->
 <g id="edge16" class="edge">
-<title>COMMENT_8b0aa20+1&#45;&gt;end_SUBPROGRAM_8b13560</title>
+<title>COMMENT_98be440+1&#45;&gt;end_SUBPROGRAM_98bb680</title>
 <path fill="none" stroke="black" d="M444,-72.93C444,-64.89 444,-55.33 444,-47.37"/>
 <polygon fill="black" stroke="black" points="447.5,-47.22 444,-37.22 440.5,-47.22 447.5,-47.22"/>
 </g>
