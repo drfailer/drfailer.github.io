@@ -10,42 +10,42 @@
 <title>EXCHANGE_DIAGNOSTICS</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-811 624,-811 624,4 -4,4"/>
 <text text-anchor="middle" x="310" y="-7.8" font-family="Times,serif" font-size="14.00">EXCHANGE_DIAGNOSTICS</text>
-<!-- start_SUBPROGRAM_96a5140 -->
+<!-- start_SUBPROGRAM_85e3940 -->
 <g id="node1" class="node">
-<title>start_SUBPROGRAM_96a5140</title>
+<title>start_SUBPROGRAM_85e3940</title>
 <ellipse fill="none" stroke="black" cx="310" cy="-800" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_966c380+1 -->
+<!-- COMMENT_856ed40+1 -->
 <g id="node2" class="node">
-<title>COMMENT_966c380+1</title>
+<title>COMMENT_856ed40+1</title>
 <polygon fill="none" stroke="black" points="471,-757 143,-757 143,-721 477,-721 477,-751 471,-757"/>
 <polyline fill="none" stroke="black" points="471,-757 471,-751 "/>
 <polyline fill="none" stroke="black" points="477,-751 471,-751 "/>
 <text text-anchor="middle" x="310" y="-735.3" font-family="Times,serif" font-size="14.00">!&gt; brief MPI exchanges of diagnostic output</text>
 </g>
-<!-- start_SUBPROGRAM_96a5140&#45;&gt;COMMENT_966c380+1 -->
+<!-- start_SUBPROGRAM_85e3940&#45;&gt;COMMENT_856ed40+1 -->
 <g id="edge1" class="edge">
-<title>start_SUBPROGRAM_96a5140&#45;&gt;COMMENT_966c380+1</title>
+<title>start_SUBPROGRAM_85e3940&#45;&gt;COMMENT_856ed40+1</title>
 <path fill="none" stroke="black" d="M310,-792.69C310,-786.49 310,-776.59 310,-767.05"/>
 <polygon fill="black" stroke="black" points="313.5,-767.02 310,-757.02 306.5,-767.02 313.5,-767.02"/>
 </g>
-<!-- COMMENT_9670960+1 -->
+<!-- COMMENT_85a0dc0+1 -->
 <g id="node3" class="node">
-<title>COMMENT_9670960+1</title>
+<title>COMMENT_85a0dc0+1</title>
 <polygon fill="none" stroke="black" points="614,-685 0,-685 0,-649 620,-649 620,-679 614,-685"/>
 <polyline fill="none" stroke="black" points="614,-685 614,-679 "/>
 <polyline fill="none" stroke="black" points="620,-679 614,-679 "/>
 <text text-anchor="middle" x="310" y="-663.3" font-family="Times,serif" font-size="14.00">Gather heat release rates (Q_DOT), mass loss rates (M_DOT), etc., to MPI process 0.</text>
 </g>
-<!-- COMMENT_966c380+1&#45;&gt;COMMENT_9670960+1 -->
+<!-- COMMENT_856ed40+1&#45;&gt;COMMENT_85a0dc0+1 -->
 <g id="edge2" class="edge">
-<title>COMMENT_966c380+1&#45;&gt;COMMENT_9670960+1</title>
+<title>COMMENT_856ed40+1&#45;&gt;COMMENT_85a0dc0+1</title>
 <path fill="none" stroke="black" d="M310,-720.7C310,-712.98 310,-703.71 310,-695.11"/>
 <polygon fill="black" stroke="black" points="313.5,-695.1 310,-685.1 306.5,-695.1 313.5,-695.1"/>
 </g>
-<!-- CALL_966f080 -->
+<!-- CALL_85acba0 -->
 <g id="node4" class="node">
-<title>CALL_966f080</title>
+<title>CALL_85acba0</title>
 <g id="a_node4"><a xlink:href="GATHER_Q_AND_M.svg" xlink:title="GATHER_Q_AND_M">
 <polygon fill="lightgray" stroke="black" points="389,-613 231,-613 231,-609 227,-609 227,-605 231,-605 231,-585 227,-585 227,-581 231,-581 231,-577 389,-577 389,-613"/>
 <polyline fill="none" stroke="black" points="231,-609 235,-609 235,-605 231,-605 "/>
@@ -54,29 +54,29 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_9670960+1&#45;&gt;CALL_966f080 -->
+<!-- COMMENT_85a0dc0+1&#45;&gt;CALL_85acba0 -->
 <g id="edge3" class="edge">
-<title>COMMENT_9670960+1&#45;&gt;CALL_966f080</title>
+<title>COMMENT_85a0dc0+1&#45;&gt;CALL_85acba0</title>
 <path fill="none" stroke="black" d="M310,-648.7C310,-640.98 310,-631.71 310,-623.11"/>
 <polygon fill="black" stroke="black" points="313.5,-623.1 310,-613.1 306.5,-623.1 313.5,-623.1"/>
 </g>
-<!-- COMMENT_96709e0+1 -->
+<!-- COMMENT_85ab480+1 -->
 <g id="node5" class="node">
-<title>COMMENT_96709e0+1</title>
+<title>COMMENT_85ab480+1</title>
 <polygon fill="none" stroke="black" points="557,-541 57,-541 57,-505 563,-505 563,-535 557,-541"/>
 <polyline fill="none" stroke="black" points="557,-541 557,-535 "/>
 <polyline fill="none" stroke="black" points="563,-535 557,-535 "/>
 <text text-anchor="middle" x="310" y="-519.3" font-family="Times,serif" font-size="14.00">MPI processes greater than 0 send diagnostic data to MPI process 0</text>
 </g>
-<!-- CALL_966f080&#45;&gt;COMMENT_96709e0+1 -->
+<!-- CALL_85acba0&#45;&gt;COMMENT_85ab480+1 -->
 <g id="edge4" class="edge">
-<title>CALL_966f080&#45;&gt;COMMENT_96709e0+1</title>
+<title>CALL_85acba0&#45;&gt;COMMENT_85ab480+1</title>
 <path fill="none" stroke="black" d="M310,-576.7C310,-568.98 310,-559.71 310,-551.11"/>
 <polygon fill="black" stroke="black" points="313.5,-551.1 310,-541.1 306.5,-551.1 313.5,-551.1"/>
 </g>
-<!-- CALL_9675ee0 -->
+<!-- CALL_85b3c60 -->
 <g id="node6" class="node">
-<title>CALL_9675ee0</title>
+<title>CALL_85b3c60</title>
 <g id="a_node6"><a xlink:href="MPI_TYPE_CREATE_STRUCT.svg" xlink:title="MPI_TYPE_CREATE_STRUCT">
 <polygon fill="#ffe800" stroke="black" points="422.5,-469 197.5,-469 197.5,-465 193.5,-465 193.5,-461 197.5,-461 197.5,-441 193.5,-441 193.5,-437 197.5,-437 197.5,-433 422.5,-433 422.5,-469"/>
 <polyline fill="none" stroke="black" points="197.5,-465 201.5,-465 201.5,-461 197.5,-461 "/>
@@ -85,15 +85,15 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_96709e0+1&#45;&gt;CALL_9675ee0 -->
+<!-- COMMENT_85ab480+1&#45;&gt;CALL_85b3c60 -->
 <g id="edge5" class="edge">
-<title>COMMENT_96709e0+1&#45;&gt;CALL_9675ee0</title>
+<title>COMMENT_85ab480+1&#45;&gt;CALL_85b3c60</title>
 <path fill="none" stroke="black" d="M310,-504.7C310,-496.98 310,-487.71 310,-479.11"/>
 <polygon fill="black" stroke="black" points="313.5,-479.1 310,-469.1 306.5,-479.1 313.5,-479.1"/>
 </g>
-<!-- CALL_9676820 -->
+<!-- CALL_85b4620 -->
 <g id="node7" class="node">
-<title>CALL_9676820</title>
+<title>CALL_85b4620</title>
 <g id="a_node7"><a xlink:href="MPI_TYPE_COMMIT.svg" xlink:title="MPI_TYPE_COMMIT">
 <polygon fill="#ffe800" stroke="black" points="391,-397 229,-397 229,-393 225,-393 225,-389 229,-389 229,-369 225,-369 225,-365 229,-365 229,-361 391,-361 391,-397"/>
 <polyline fill="none" stroke="black" points="229,-393 233,-393 233,-389 229,-389 "/>
@@ -102,15 +102,15 @@
 </a>
 </g>
 </g>
-<!-- CALL_9675ee0&#45;&gt;CALL_9676820 -->
+<!-- CALL_85b3c60&#45;&gt;CALL_85b4620 -->
 <g id="edge6" class="edge">
-<title>CALL_9675ee0&#45;&gt;CALL_9676820</title>
+<title>CALL_85b3c60&#45;&gt;CALL_85b4620</title>
 <path fill="none" stroke="black" d="M310,-432.7C310,-424.98 310,-415.71 310,-407.11"/>
 <polygon fill="black" stroke="black" points="313.5,-407.1 310,-397.1 306.5,-407.1 313.5,-407.1"/>
 </g>
-<!-- CALL_968cba0 -->
+<!-- CALL_85c9d60 -->
 <g id="node8" class="node">
-<title>CALL_968cba0</title>
+<title>CALL_85c9d60</title>
 <g id="a_node8"><a xlink:href="MPI_SSEND.svg" xlink:title="MPI_SSEND">
 <polygon fill="#ffe800" stroke="black" points="362.5,-325 257.5,-325 257.5,-321 253.5,-321 253.5,-317 257.5,-317 257.5,-297 253.5,-297 253.5,-293 257.5,-293 257.5,-289 362.5,-289 362.5,-325"/>
 <polyline fill="none" stroke="black" points="257.5,-321 261.5,-321 261.5,-317 257.5,-317 "/>
@@ -119,29 +119,29 @@
 </a>
 </g>
 </g>
-<!-- CALL_9676820&#45;&gt;CALL_968cba0 -->
+<!-- CALL_85b4620&#45;&gt;CALL_85c9d60 -->
 <g id="edge7" class="edge">
-<title>CALL_9676820&#45;&gt;CALL_968cba0</title>
+<title>CALL_85b4620&#45;&gt;CALL_85c9d60</title>
 <path fill="none" stroke="black" d="M310,-360.7C310,-352.98 310,-343.71 310,-335.11"/>
 <polygon fill="black" stroke="black" points="313.5,-335.1 310,-325.1 306.5,-335.1 313.5,-335.1"/>
 </g>
-<!-- COMMENT_968d600+1 -->
+<!-- COMMENT_85cc720+1 -->
 <g id="node9" class="node">
-<title>COMMENT_968d600+1</title>
+<title>COMMENT_85cc720+1</title>
 <polygon fill="none" stroke="black" points="498,-253 116,-253 116,-217 504,-217 504,-247 498,-253"/>
 <polyline fill="none" stroke="black" points="498,-253 498,-247 "/>
 <polyline fill="none" stroke="black" points="504,-247 498,-247 "/>
 <text text-anchor="middle" x="310" y="-231.3" font-family="Times,serif" font-size="14.00">Node 0 receives various values from all other nodes</text>
 </g>
-<!-- CALL_968cba0&#45;&gt;COMMENT_968d600+1 -->
+<!-- CALL_85c9d60&#45;&gt;COMMENT_85cc720+1 -->
 <g id="edge8" class="edge">
-<title>CALL_968cba0&#45;&gt;COMMENT_968d600+1</title>
+<title>CALL_85c9d60&#45;&gt;COMMENT_85cc720+1</title>
 <path fill="none" stroke="black" d="M310,-288.7C310,-280.98 310,-271.71 310,-263.11"/>
 <polygon fill="black" stroke="black" points="313.5,-263.1 310,-253.1 306.5,-263.1 313.5,-263.1"/>
 </g>
-<!-- CALL_96914c0 -->
+<!-- CALL_85d03e0 -->
 <g id="node10" class="node">
-<title>CALL_96914c0</title>
+<title>CALL_85d03e0</title>
 <g id="a_node10"><a xlink:href="MPI_RECV.svg" xlink:title="MPI_RECV">
 <polygon fill="#ffe800" stroke="black" points="357,-181 263,-181 263,-177 259,-177 259,-173 263,-173 263,-153 259,-153 259,-149 263,-149 263,-145 357,-145 357,-181"/>
 <polyline fill="none" stroke="black" points="263,-177 267,-177 267,-173 263,-173 "/>
@@ -150,15 +150,15 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_968d600+1&#45;&gt;CALL_96914c0 -->
+<!-- COMMENT_85cc720+1&#45;&gt;CALL_85d03e0 -->
 <g id="edge9" class="edge">
-<title>COMMENT_968d600+1&#45;&gt;CALL_96914c0</title>
+<title>COMMENT_85cc720+1&#45;&gt;CALL_85d03e0</title>
 <path fill="none" stroke="black" d="M310,-216.7C310,-208.98 310,-199.71 310,-191.11"/>
 <polygon fill="black" stroke="black" points="313.5,-191.1 310,-181.1 306.5,-191.1 313.5,-191.1"/>
 </g>
-<!-- CALL_96a56e0 -->
+<!-- CALL_85e3840 -->
 <g id="node11" class="node">
-<title>CALL_96a56e0</title>
+<title>CALL_85e3840</title>
 <g id="a_node11"><a xlink:href="MPI_TYPE_FREE.svg" xlink:title="MPI_TYPE_FREE">
 <polygon fill="#ffe800" stroke="black" points="379.5,-109 240.5,-109 240.5,-105 236.5,-105 236.5,-101 240.5,-101 240.5,-81 236.5,-81 236.5,-77 240.5,-77 240.5,-73 379.5,-73 379.5,-109"/>
 <polyline fill="none" stroke="black" points="240.5,-105 244.5,-105 244.5,-101 240.5,-101 "/>
@@ -167,20 +167,20 @@
 </a>
 </g>
 </g>
-<!-- CALL_96914c0&#45;&gt;CALL_96a56e0 -->
+<!-- CALL_85d03e0&#45;&gt;CALL_85e3840 -->
 <g id="edge10" class="edge">
-<title>CALL_96914c0&#45;&gt;CALL_96a56e0</title>
+<title>CALL_85d03e0&#45;&gt;CALL_85e3840</title>
 <path fill="none" stroke="black" d="M310,-144.7C310,-136.98 310,-127.71 310,-119.11"/>
 <polygon fill="black" stroke="black" points="313.5,-119.1 310,-109.1 306.5,-119.1 313.5,-119.1"/>
 </g>
-<!-- end_SUBPROGRAM_96a5140 -->
+<!-- end_SUBPROGRAM_85e3940 -->
 <g id="node12" class="node">
-<title>end_SUBPROGRAM_96a5140</title>
+<title>end_SUBPROGRAM_85e3940</title>
 <ellipse fill="black" stroke="black" cx="310" cy="-30" rx="7" ry="7"/>
 </g>
-<!-- CALL_96a56e0&#45;&gt;end_SUBPROGRAM_96a5140 -->
+<!-- CALL_85e3840&#45;&gt;end_SUBPROGRAM_85e3940 -->
 <g id="edge11" class="edge">
-<title>CALL_96a56e0&#45;&gt;end_SUBPROGRAM_96a5140</title>
+<title>CALL_85e3840&#45;&gt;end_SUBPROGRAM_85e3940</title>
 <path fill="none" stroke="black" d="M310,-72.93C310,-64.89 310,-55.33 310,-47.37"/>
 <polygon fill="black" stroke="black" points="313.5,-47.22 310,-37.22 306.5,-47.22 313.5,-47.22"/>
 </g>
