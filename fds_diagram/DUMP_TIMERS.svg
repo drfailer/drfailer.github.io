@@ -10,57 +10,57 @@
 <title>DUMP_TIMERS</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-453 868,-453 868,4 -4,4"/>
 <text text-anchor="middle" x="432" y="-7.8" font-family="Times,serif" font-size="14.00">DUMP_TIMERS</text>
-<!-- start_SUBPROGRAM_9129b20 -->
+<!-- start_SUBPROGRAM_9935c80 -->
 <g id="node1" class="node">
-<title>start_SUBPROGRAM_9129b20</title>
+<title>start_SUBPROGRAM_9935c80</title>
 <ellipse fill="none" stroke="black" cx="432" cy="-442" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_9225800+1 -->
+<!-- COMMENT_99257c0+1 -->
 <g id="node2" class="node">
-<title>COMMENT_9225800+1</title>
+<title>COMMENT_99257c0+1</title>
 <polygon fill="none" stroke="black" points="858,-399 0,-399 0,-363 864,-363 864,-393 858,-399"/>
 <polyline fill="none" stroke="black" points="858,-399 858,-393 "/>
 <polyline fill="none" stroke="black" points="864,-393 858,-393 "/>
 <text text-anchor="middle" x="432" y="-377.3" font-family="Times,serif" font-size="14.00">!&gt; brief Write out the file CHID_cpu.csv containing the CPU time used by the major subroutines for each MPI process.</text>
 </g>
-<!-- start_SUBPROGRAM_9129b20&#45;&gt;COMMENT_9225800+1 -->
+<!-- start_SUBPROGRAM_9935c80&#45;&gt;COMMENT_99257c0+1 -->
 <g id="edge1" class="edge">
-<title>start_SUBPROGRAM_9129b20&#45;&gt;COMMENT_9225800+1</title>
+<title>start_SUBPROGRAM_9935c80&#45;&gt;COMMENT_99257c0+1</title>
 <path fill="none" stroke="black" d="M432,-434.69C432,-428.49 432,-418.59 432,-409.05"/>
 <polygon fill="black" stroke="black" points="435.5,-409.02 432,-399.02 428.5,-409.02 435.5,-409.02"/>
 </g>
-<!-- COMMENT_9203e20+1 -->
+<!-- COMMENT_99295c0+1 -->
 <g id="node3" class="node">
-<title>COMMENT_9203e20+1</title>
+<title>COMMENT_99295c0+1</title>
 <polygon fill="none" stroke="black" points="773,-327 85,-327 85,-289 779,-289 779,-321 773,-327"/>
 <polyline fill="none" stroke="black" points="773,-327 773,-321 "/>
 <polyline fill="none" stroke="black" points="779,-321 773,-321 "/>
 <text text-anchor="middle" x="432" y="-311.8" font-family="Times,serif" font-size="14.00">T_USED_COPY(1) is the time spent in the main routine; i.e. the time not spent in a subroutine.</text>
 <text text-anchor="middle" x="432" y="-296.8" font-family="Times,serif" font-size="14.00">T_USED_COPY so not overwriting T_USED(1) when multiple CPU dumps happen.</text>
 </g>
-<!-- COMMENT_9225800+1&#45;&gt;COMMENT_9203e20+1 -->
+<!-- COMMENT_99257c0+1&#45;&gt;COMMENT_99295c0+1 -->
 <g id="edge2" class="edge">
-<title>COMMENT_9225800+1&#45;&gt;COMMENT_9203e20+1</title>
+<title>COMMENT_99257c0+1&#45;&gt;COMMENT_99295c0+1</title>
 <path fill="none" stroke="black" d="M432,-362.81C432,-355.11 432,-345.82 432,-337.15"/>
 <polygon fill="black" stroke="black" points="435.5,-337.02 432,-327.02 428.5,-337.02 435.5,-337.02"/>
 </g>
-<!-- COMMENT_91af1c0+1 -->
+<!-- COMMENT_9674a00+1 -->
 <g id="node4" class="node">
-<title>COMMENT_91af1c0+1</title>
+<title>COMMENT_9674a00+1</title>
 <polygon fill="none" stroke="black" points="851.5,-253 6.5,-253 6.5,-217 857.5,-217 857.5,-247 851.5,-253"/>
 <polyline fill="none" stroke="black" points="851.5,-253 851.5,-247 "/>
 <polyline fill="none" stroke="black" points="857.5,-247 851.5,-247 "/>
 <text text-anchor="middle" x="432" y="-231.3" font-family="Times,serif" font-size="14.00">All MPI processes except root send their timings to the root process. The root process then writes them out to a file.</text>
 </g>
-<!-- COMMENT_9203e20+1&#45;&gt;COMMENT_91af1c0+1 -->
+<!-- COMMENT_99295c0+1&#45;&gt;COMMENT_9674a00+1 -->
 <g id="edge3" class="edge">
-<title>COMMENT_9203e20+1&#45;&gt;COMMENT_91af1c0+1</title>
+<title>COMMENT_99295c0+1&#45;&gt;COMMENT_9674a00+1</title>
 <path fill="none" stroke="black" d="M432,-288.72C432,-280.97 432,-271.79 432,-263.27"/>
 <polygon fill="black" stroke="black" points="435.5,-263 432,-253 428.5,-263 435.5,-263"/>
 </g>
-<!-- CALL_922b500 -->
+<!-- CALL_992df80 -->
 <g id="node5" class="node">
-<title>CALL_922b500</title>
+<title>CALL_992df80</title>
 <g id="a_node5"><a xlink:href="MPI_SEND.svg" xlink:title="MPI_SEND">
 <polygon fill="#ffe800" stroke="black" points="480,-181 384,-181 384,-177 380,-177 380,-173 384,-173 384,-153 380,-153 380,-149 384,-149 384,-145 480,-145 480,-181"/>
 <polyline fill="none" stroke="black" points="384,-177 388,-177 388,-173 384,-173 "/>
@@ -69,15 +69,15 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_91af1c0+1&#45;&gt;CALL_922b500 -->
+<!-- COMMENT_9674a00+1&#45;&gt;CALL_992df80 -->
 <g id="edge4" class="edge">
-<title>COMMENT_91af1c0+1&#45;&gt;CALL_922b500</title>
+<title>COMMENT_9674a00+1&#45;&gt;CALL_992df80</title>
 <path fill="none" stroke="black" d="M432,-216.7C432,-208.98 432,-199.71 432,-191.11"/>
 <polygon fill="black" stroke="black" points="435.5,-191.1 432,-181.1 428.5,-191.1 435.5,-191.1"/>
 </g>
-<!-- CALL_922fb40 -->
+<!-- CALL_9934460 -->
 <g id="node6" class="node">
-<title>CALL_922fb40</title>
+<title>CALL_9934460</title>
 <g id="a_node6"><a xlink:href="MPI_RECV.svg" xlink:title="MPI_RECV">
 <polygon fill="#ffe800" stroke="black" points="479,-109 385,-109 385,-105 381,-105 381,-101 385,-101 385,-81 381,-81 381,-77 385,-77 385,-73 479,-73 479,-109"/>
 <polyline fill="none" stroke="black" points="385,-105 389,-105 389,-101 385,-101 "/>
@@ -86,20 +86,20 @@
 </a>
 </g>
 </g>
-<!-- CALL_922b500&#45;&gt;CALL_922fb40 -->
+<!-- CALL_992df80&#45;&gt;CALL_9934460 -->
 <g id="edge5" class="edge">
-<title>CALL_922b500&#45;&gt;CALL_922fb40</title>
+<title>CALL_992df80&#45;&gt;CALL_9934460</title>
 <path fill="none" stroke="black" d="M432,-144.7C432,-136.98 432,-127.71 432,-119.11"/>
 <polygon fill="black" stroke="black" points="435.5,-119.1 432,-109.1 428.5,-119.1 435.5,-119.1"/>
 </g>
-<!-- end_SUBPROGRAM_9129b20 -->
+<!-- end_SUBPROGRAM_9935c80 -->
 <g id="node7" class="node">
-<title>end_SUBPROGRAM_9129b20</title>
+<title>end_SUBPROGRAM_9935c80</title>
 <ellipse fill="black" stroke="black" cx="432" cy="-30" rx="7" ry="7"/>
 </g>
-<!-- CALL_922fb40&#45;&gt;end_SUBPROGRAM_9129b20 -->
+<!-- CALL_9934460&#45;&gt;end_SUBPROGRAM_9935c80 -->
 <g id="edge6" class="edge">
-<title>CALL_922fb40&#45;&gt;end_SUBPROGRAM_9129b20</title>
+<title>CALL_9934460&#45;&gt;end_SUBPROGRAM_9935c80</title>
 <path fill="none" stroke="black" d="M432,-72.93C432,-64.89 432,-55.33 432,-47.37"/>
 <polygon fill="black" stroke="black" points="435.5,-47.22 432,-37.22 428.5,-47.22 435.5,-47.22"/>
 </g>

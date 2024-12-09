@@ -10,123 +10,123 @@
 <title>CORIOLIS_FORCE</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-667 615,-667 615,4 -4,4"/>
 <text text-anchor="middle" x="305.5" y="-7.8" font-family="Times,serif" font-size="14.00">CORIOLIS_FORCE</text>
-<!-- start_SUBPROGRAM_877e140 -->
+<!-- start_SUBPROGRAM_7f78500 -->
 <g id="node1" class="node">
-<title>start_SUBPROGRAM_877e140</title>
+<title>start_SUBPROGRAM_7f78500</title>
 <ellipse fill="none" stroke="black" cx="305.5" cy="-656" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_8737ea0+1 -->
+<!-- COMMENT_7f32e60+1 -->
 <g id="node2" class="node">
-<title>COMMENT_8737ea0+1</title>
+<title>COMMENT_7f32e60+1</title>
 <polygon fill="none" stroke="black" points="605,-613 0,-613 0,-577 611,-577 611,-607 605,-613"/>
 <polyline fill="none" stroke="black" points="605,-613 605,-607 "/>
 <polyline fill="none" stroke="black" points="611,-607 605,-607 "/>
 <text text-anchor="middle" x="305.5" y="-591.3" font-family="Times,serif" font-size="14.00">Velocities relative to the p&#45;cell center (same work done in Deardorff eddy viscosity)</text>
 </g>
-<!-- start_SUBPROGRAM_877e140&#45;&gt;COMMENT_8737ea0+1 -->
+<!-- start_SUBPROGRAM_7f78500&#45;&gt;COMMENT_7f32e60+1 -->
 <g id="edge1" class="edge">
-<title>start_SUBPROGRAM_877e140&#45;&gt;COMMENT_8737ea0+1</title>
+<title>start_SUBPROGRAM_7f78500&#45;&gt;COMMENT_7f32e60+1</title>
 <path fill="none" stroke="black" d="M305.5,-648.69C305.5,-642.49 305.5,-632.59 305.5,-623.05"/>
 <polygon fill="black" stroke="black" points="309,-623.02 305.5,-613.02 302,-623.02 309,-623.02"/>
 </g>
-<!-- OMP_DO_873dc60+1 -->
+<!-- OMP_DO_7f38040+1 -->
 <g id="node3" class="node">
-<title>OMP_DO_873dc60+1</title>
+<title>OMP_DO_7f38040+1</title>
 <polygon fill="red" stroke="black" points="468.5,-541 142.5,-541 142.5,-505 468.5,-505 468.5,-541"/>
 <text text-anchor="middle" x="305.5" y="-519.3" font-family="Times,serif" font-size="14.00">!$OMP PARALLEL DO SCHEDULE(STATIC)</text>
 </g>
-<!-- COMMENT_8737ea0+1&#45;&gt;OMP_DO_873dc60+1 -->
+<!-- COMMENT_7f32e60+1&#45;&gt;OMP_DO_7f38040+1 -->
 <g id="edge2" class="edge">
-<title>COMMENT_8737ea0+1&#45;&gt;OMP_DO_873dc60+1</title>
+<title>COMMENT_7f32e60+1&#45;&gt;OMP_DO_7f38040+1</title>
 <path fill="none" stroke="black" d="M305.5,-576.7C305.5,-568.98 305.5,-559.71 305.5,-551.11"/>
 <polygon fill="black" stroke="black" points="309,-551.1 305.5,-541.1 302,-551.1 309,-551.1"/>
 </g>
-<!-- COMMENT_8754d60+1 -->
+<!-- COMMENT_7f4f460+1 -->
 <g id="node4" class="node">
-<title>COMMENT_8754d60+1</title>
+<title>COMMENT_7f4f460+1</title>
 <polygon fill="none" stroke="black" points="354.5,-469 250.5,-469 250.5,-433 360.5,-433 360.5,-463 354.5,-469"/>
 <polyline fill="none" stroke="black" points="354.5,-469 354.5,-463 "/>
 <polyline fill="none" stroke="black" points="360.5,-463 354.5,-463 "/>
 <text text-anchor="middle" x="305.5" y="-447.3" font-family="Times,serif" font-size="14.00">x momentum</text>
 </g>
-<!-- OMP_DO_873dc60+1&#45;&gt;COMMENT_8754d60+1 -->
+<!-- OMP_DO_7f38040+1&#45;&gt;COMMENT_7f4f460+1 -->
 <g id="edge3" class="edge">
-<title>OMP_DO_873dc60+1&#45;&gt;COMMENT_8754d60+1</title>
+<title>OMP_DO_7f38040+1&#45;&gt;COMMENT_7f4f460+1</title>
 <path fill="none" stroke="black" d="M305.5,-504.7C305.5,-496.98 305.5,-487.71 305.5,-479.11"/>
 <polygon fill="black" stroke="black" points="309,-479.1 305.5,-469.1 302,-479.1 309,-479.1"/>
 </g>
-<!-- OMP_DO_8754d60+2 -->
+<!-- OMP_DO_7f4f460+2 -->
 <g id="node5" class="node">
-<title>OMP_DO_8754d60+2</title>
+<title>OMP_DO_7f4f460+2</title>
 <polygon fill="red" stroke="black" points="552.5,-397 58.5,-397 58.5,-361 552.5,-361 552.5,-397"/>
 <text text-anchor="middle" x="305.5" y="-375.3" font-family="Times,serif" font-size="14.00">!$OMP PARALLEL DO PRIVATE(VBAR,WBAR) SCHEDULE(STATIC)</text>
 </g>
-<!-- COMMENT_8754d60+1&#45;&gt;OMP_DO_8754d60+2 -->
+<!-- COMMENT_7f4f460+1&#45;&gt;OMP_DO_7f4f460+2 -->
 <g id="edge4" class="edge">
-<title>COMMENT_8754d60+1&#45;&gt;OMP_DO_8754d60+2</title>
+<title>COMMENT_7f4f460+1&#45;&gt;OMP_DO_7f4f460+2</title>
 <path fill="none" stroke="black" d="M305.5,-432.7C305.5,-424.98 305.5,-415.71 305.5,-407.11"/>
 <polygon fill="black" stroke="black" points="309,-407.1 305.5,-397.1 302,-407.1 309,-407.1"/>
 </g>
-<!-- COMMENT_8762a60+2 -->
+<!-- COMMENT_7f5d080+2 -->
 <g id="node6" class="node">
-<title>COMMENT_8762a60+2</title>
+<title>COMMENT_7f5d080+2</title>
 <polygon fill="none" stroke="black" points="354.5,-325 250.5,-325 250.5,-289 360.5,-289 360.5,-319 354.5,-325"/>
 <polyline fill="none" stroke="black" points="354.5,-325 354.5,-319 "/>
 <polyline fill="none" stroke="black" points="360.5,-319 354.5,-319 "/>
 <text text-anchor="middle" x="305.5" y="-303.3" font-family="Times,serif" font-size="14.00">y momentum</text>
 </g>
-<!-- OMP_DO_8754d60+2&#45;&gt;COMMENT_8762a60+2 -->
+<!-- OMP_DO_7f4f460+2&#45;&gt;COMMENT_7f5d080+2 -->
 <g id="edge5" class="edge">
-<title>OMP_DO_8754d60+2&#45;&gt;COMMENT_8762a60+2</title>
+<title>OMP_DO_7f4f460+2&#45;&gt;COMMENT_7f5d080+2</title>
 <path fill="none" stroke="black" d="M305.5,-360.7C305.5,-352.98 305.5,-343.71 305.5,-335.11"/>
 <polygon fill="black" stroke="black" points="309,-335.1 305.5,-325.1 302,-335.1 309,-335.1"/>
 </g>
-<!-- OMP_DO_8762a60+3 -->
+<!-- OMP_DO_7f5d080+3 -->
 <g id="node7" class="node">
-<title>OMP_DO_8762a60+3</title>
+<title>OMP_DO_7f5d080+3</title>
 <polygon fill="red" stroke="black" points="554,-253 57,-253 57,-217 554,-217 554,-253"/>
 <text text-anchor="middle" x="305.5" y="-231.3" font-family="Times,serif" font-size="14.00">!$OMP PARALLEL DO PRIVATE(UBAR,WBAR) SCHEDULE(STATIC)</text>
 </g>
-<!-- COMMENT_8762a60+2&#45;&gt;OMP_DO_8762a60+3 -->
+<!-- COMMENT_7f5d080+2&#45;&gt;OMP_DO_7f5d080+3 -->
 <g id="edge6" class="edge">
-<title>COMMENT_8762a60+2&#45;&gt;OMP_DO_8762a60+3</title>
+<title>COMMENT_7f5d080+2&#45;&gt;OMP_DO_7f5d080+3</title>
 <path fill="none" stroke="black" d="M305.5,-288.7C305.5,-280.98 305.5,-271.71 305.5,-263.11"/>
 <polygon fill="black" stroke="black" points="309,-263.1 305.5,-253.1 302,-263.1 309,-263.1"/>
 </g>
-<!-- COMMENT_8770720+2 -->
+<!-- COMMENT_7f6af40+2 -->
 <g id="node8" class="node">
-<title>COMMENT_8770720+2</title>
+<title>COMMENT_7f6af40+2</title>
 <polygon fill="none" stroke="black" points="354.5,-181 250.5,-181 250.5,-145 360.5,-145 360.5,-175 354.5,-181"/>
 <polyline fill="none" stroke="black" points="354.5,-181 354.5,-175 "/>
 <polyline fill="none" stroke="black" points="360.5,-175 354.5,-175 "/>
 <text text-anchor="middle" x="305.5" y="-159.3" font-family="Times,serif" font-size="14.00">z momentum</text>
 </g>
-<!-- OMP_DO_8762a60+3&#45;&gt;COMMENT_8770720+2 -->
+<!-- OMP_DO_7f5d080+3&#45;&gt;COMMENT_7f6af40+2 -->
 <g id="edge7" class="edge">
-<title>OMP_DO_8762a60+3&#45;&gt;COMMENT_8770720+2</title>
+<title>OMP_DO_7f5d080+3&#45;&gt;COMMENT_7f6af40+2</title>
 <path fill="none" stroke="black" d="M305.5,-216.7C305.5,-208.98 305.5,-199.71 305.5,-191.11"/>
 <polygon fill="black" stroke="black" points="309,-191.1 305.5,-181.1 302,-191.1 309,-191.1"/>
 </g>
-<!-- OMP_DO_8770720+3 -->
+<!-- OMP_DO_7f6af40+3 -->
 <g id="node9" class="node">
-<title>OMP_DO_8770720+3</title>
+<title>OMP_DO_7f6af40+3</title>
 <polygon fill="red" stroke="black" points="551.5,-109 59.5,-109 59.5,-73 551.5,-73 551.5,-109"/>
 <text text-anchor="middle" x="305.5" y="-87.3" font-family="Times,serif" font-size="14.00">!$OMP PARALLEL DO PRIVATE(UBAR,VBAR) SCHEDULE(STATIC)</text>
 </g>
-<!-- COMMENT_8770720+2&#45;&gt;OMP_DO_8770720+3 -->
+<!-- COMMENT_7f6af40+2&#45;&gt;OMP_DO_7f6af40+3 -->
 <g id="edge8" class="edge">
-<title>COMMENT_8770720+2&#45;&gt;OMP_DO_8770720+3</title>
+<title>COMMENT_7f6af40+2&#45;&gt;OMP_DO_7f6af40+3</title>
 <path fill="none" stroke="black" d="M305.5,-144.7C305.5,-136.98 305.5,-127.71 305.5,-119.11"/>
 <polygon fill="black" stroke="black" points="309,-119.1 305.5,-109.1 302,-119.1 309,-119.1"/>
 </g>
-<!-- end_SUBPROGRAM_877e140 -->
+<!-- end_SUBPROGRAM_7f78500 -->
 <g id="node10" class="node">
-<title>end_SUBPROGRAM_877e140</title>
+<title>end_SUBPROGRAM_7f78500</title>
 <ellipse fill="black" stroke="black" cx="305.5" cy="-30" rx="7" ry="7"/>
 </g>
-<!-- OMP_DO_8770720+3&#45;&gt;end_SUBPROGRAM_877e140 -->
+<!-- OMP_DO_7f6af40+3&#45;&gt;end_SUBPROGRAM_7f78500 -->
 <g id="edge9" class="edge">
-<title>OMP_DO_8770720+3&#45;&gt;end_SUBPROGRAM_877e140</title>
+<title>OMP_DO_7f6af40+3&#45;&gt;end_SUBPROGRAM_7f78500</title>
 <path fill="none" stroke="black" d="M305.5,-72.93C305.5,-64.89 305.5,-55.33 305.5,-47.37"/>
 <polygon fill="black" stroke="black" points="309,-47.22 305.5,-37.22 302,-47.22 309,-47.22"/>
 </g>

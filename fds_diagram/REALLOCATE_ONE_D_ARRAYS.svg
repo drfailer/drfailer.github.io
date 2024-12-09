@@ -20,14 +20,14 @@
 <polygon fill="none" stroke="orange" points="323.5,-281 323.5,-429.44 491.5,-429.44 491.5,-281 323.5,-281"/>
 <text text-anchor="middle" x="384" y="-414.24" font-family="Times,serif" font-size="14.00">POINT_LOOP3</text>
 </g>
-<!-- start_SUBPROGRAM_8ce8b80 -->
+<!-- start_SUBPROGRAM_813c5a0 -->
 <g id="node1" class="node">
-<title>start_SUBPROGRAM_8ce8b80</title>
+<title>start_SUBPROGRAM_813c5a0</title>
 <ellipse fill="none" stroke="black" cx="407.5" cy="-1848.88" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_8ef9280+1 -->
+<!-- COMMENT_a150d80+1 -->
 <g id="node2" class="node">
-<title>COMMENT_8ef9280+1</title>
+<title>COMMENT_a150d80+1</title>
 <polygon fill="none" stroke="black" points="807.5,-1805.88 1.5,-1805.88 1.5,-1737.88 813.5,-1737.88 813.5,-1799.88 807.5,-1805.88"/>
 <polyline fill="none" stroke="black" points="807.5,-1805.88 807.5,-1799.88 "/>
 <polyline fill="none" stroke="black" points="813.5,-1799.88 807.5,-1799.88 "/>
@@ -36,43 +36,43 @@
 <text text-anchor="middle" x="407.5" y="-1760.68" font-family="Times,serif" font-size="14.00">!&gt; param WALL_CELL Optional WALL cell index</text>
 <text text-anchor="middle" x="407.5" y="-1745.68" font-family="Times,serif" font-size="14.00">!&gt; param THIN_WALL_CELL Optional THIN_WALL cell index</text>
 </g>
-<!-- start_SUBPROGRAM_8ce8b80&#45;&gt;COMMENT_8ef9280+1 -->
+<!-- start_SUBPROGRAM_813c5a0&#45;&gt;COMMENT_a150d80+1 -->
 <g id="edge1" class="edge">
-<title>start_SUBPROGRAM_8ce8b80&#45;&gt;COMMENT_8ef9280+1</title>
+<title>start_SUBPROGRAM_813c5a0&#45;&gt;COMMENT_a150d80+1</title>
 <path fill="none" stroke="black" d="M407.5,-1841.74C407.5,-1835.81 407.5,-1826.26 407.5,-1816.14"/>
 <polygon fill="black" stroke="black" points="411,-1815.93 407.5,-1805.93 404,-1815.93 411,-1815.93"/>
 </g>
-<!-- COMMENT_8c88040+1 -->
+<!-- COMMENT_a161460+1 -->
 <g id="node3" class="node">
-<title>COMMENT_8c88040+1</title>
+<title>COMMENT_a161460+1</title>
 <polygon fill="none" stroke="black" points="779.5,-1701.88 29.5,-1701.88 29.5,-1665.88 785.5,-1665.88 785.5,-1695.88 779.5,-1701.88"/>
 <polyline fill="none" stroke="black" points="779.5,-1701.88 779.5,-1695.88 "/>
 <polyline fill="none" stroke="black" points="785.5,-1695.88 779.5,-1695.88 "/>
 <text text-anchor="middle" x="407.5" y="-1680.18" font-family="Times,serif" font-size="14.00">This code is probably unnecessary. It is only in case the thickness of the solid has not been determined.</text>
 </g>
-<!-- COMMENT_8ef9280+1&#45;&gt;COMMENT_8c88040+1 -->
+<!-- COMMENT_a150d80+1&#45;&gt;COMMENT_a161460+1 -->
 <g id="edge2" class="edge">
-<title>COMMENT_8ef9280+1&#45;&gt;COMMENT_8c88040+1</title>
+<title>COMMENT_a150d80+1&#45;&gt;COMMENT_a161460+1</title>
 <path fill="none" stroke="black" d="M407.5,-1737.88C407.5,-1729.44 407.5,-1720.47 407.5,-1712.35"/>
 <polygon fill="black" stroke="black" points="411,-1712.28 407.5,-1702.28 404,-1712.28 411,-1712.28"/>
 </g>
-<!-- COMMENT_8c8f0c0+1 -->
+<!-- COMMENT_a157f20+1 -->
 <g id="node4" class="node">
-<title>COMMENT_8c8f0c0+1</title>
+<title>COMMENT_a157f20+1</title>
 <polygon fill="none" stroke="black" points="719.5,-1629.88 89.5,-1629.88 89.5,-1593.88 725.5,-1593.88 725.5,-1623.88 719.5,-1629.88"/>
 <polyline fill="none" stroke="black" points="719.5,-1629.88 719.5,-1623.88 "/>
 <polyline fill="none" stroke="black" points="725.5,-1623.88 719.5,-1623.88 "/>
 <text text-anchor="middle" x="407.5" y="-1608.18" font-family="Times,serif" font-size="14.00">Initially these arrays were allocated under the assumption that there is only one layer.</text>
 </g>
-<!-- COMMENT_8c88040+1&#45;&gt;COMMENT_8c8f0c0+1 -->
+<!-- COMMENT_a161460+1&#45;&gt;COMMENT_a157f20+1 -->
 <g id="edge3" class="edge">
-<title>COMMENT_8c88040+1&#45;&gt;COMMENT_8c8f0c0+1</title>
+<title>COMMENT_a161460+1&#45;&gt;COMMENT_a157f20+1</title>
 <path fill="none" stroke="black" d="M407.5,-1665.58C407.5,-1657.86 407.5,-1648.59 407.5,-1639.99"/>
 <polygon fill="black" stroke="black" points="411,-1639.98 407.5,-1629.98 404,-1639.98 411,-1639.98"/>
 </g>
-<!-- CALL_8c8fb60 -->
+<!-- CALL_a16ac00 -->
 <g id="node5" class="node">
-<title>CALL_8c8fb60</title>
+<title>CALL_a16ac00</title>
 <g id="a_node5"><a xlink:href="REALLOCATE_REAL_ARRAY.svg" xlink:title="REALLOCATE_REAL_ARRAY">
 <polygon fill="lightgray" stroke="black" points="516.5,-1557.88 298.5,-1557.88 298.5,-1553.88 294.5,-1553.88 294.5,-1549.88 298.5,-1549.88 298.5,-1529.88 294.5,-1529.88 294.5,-1525.88 298.5,-1525.88 298.5,-1521.88 516.5,-1521.88 516.5,-1557.88"/>
 <polyline fill="none" stroke="black" points="298.5,-1553.88 302.5,-1553.88 302.5,-1549.88 298.5,-1549.88 "/>
@@ -81,15 +81,15 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_8c8f0c0+1&#45;&gt;CALL_8c8fb60 -->
+<!-- COMMENT_a157f20+1&#45;&gt;CALL_a16ac00 -->
 <g id="edge4" class="edge">
-<title>COMMENT_8c8f0c0+1&#45;&gt;CALL_8c8fb60</title>
+<title>COMMENT_a157f20+1&#45;&gt;CALL_a16ac00</title>
 <path fill="none" stroke="black" d="M407.5,-1593.58C407.5,-1585.86 407.5,-1576.59 407.5,-1567.99"/>
 <polygon fill="black" stroke="black" points="411,-1567.98 407.5,-1557.98 404,-1567.98 411,-1567.98"/>
 </g>
-<!-- CALL_8c92d80 -->
+<!-- CALL_a16bec0 -->
 <g id="node6" class="node">
-<title>CALL_8c92d80</title>
+<title>CALL_a16bec0</title>
 <g id="a_node6"><a xlink:href="REALLOCATE_REAL_ARRAY.svg" xlink:title="REALLOCATE_REAL_ARRAY">
 <polygon fill="lightgray" stroke="black" points="516.5,-1485.88 298.5,-1485.88 298.5,-1481.88 294.5,-1481.88 294.5,-1477.88 298.5,-1477.88 298.5,-1457.88 294.5,-1457.88 294.5,-1453.88 298.5,-1453.88 298.5,-1449.88 516.5,-1449.88 516.5,-1485.88"/>
 <polyline fill="none" stroke="black" points="298.5,-1481.88 302.5,-1481.88 302.5,-1477.88 298.5,-1477.88 "/>
@@ -98,15 +98,15 @@
 </a>
 </g>
 </g>
-<!-- CALL_8c8fb60&#45;&gt;CALL_8c92d80 -->
+<!-- CALL_a16ac00&#45;&gt;CALL_a16bec0 -->
 <g id="edge5" class="edge">
-<title>CALL_8c8fb60&#45;&gt;CALL_8c92d80</title>
+<title>CALL_a16ac00&#45;&gt;CALL_a16bec0</title>
 <path fill="none" stroke="black" d="M407.5,-1521.58C407.5,-1513.86 407.5,-1504.59 407.5,-1495.99"/>
 <polygon fill="black" stroke="black" points="411,-1495.98 407.5,-1485.98 404,-1495.98 411,-1495.98"/>
 </g>
-<!-- CALL_8c94140 -->
+<!-- CALL_a16d180 -->
 <g id="node7" class="node">
-<title>CALL_8c94140</title>
+<title>CALL_a16d180</title>
 <g id="a_node7"><a xlink:href="REALLOCATE_INTEGER_ARRAY.svg" xlink:title="REALLOCATE_INTEGER_ARRAY">
 <polygon fill="lightgray" stroke="black" points="531.5,-1413.88 283.5,-1413.88 283.5,-1409.88 279.5,-1409.88 279.5,-1405.88 283.5,-1405.88 283.5,-1385.88 279.5,-1385.88 279.5,-1381.88 283.5,-1381.88 283.5,-1377.88 531.5,-1377.88 531.5,-1413.88"/>
 <polyline fill="none" stroke="black" points="283.5,-1409.88 287.5,-1409.88 287.5,-1405.88 283.5,-1405.88 "/>
@@ -115,15 +115,15 @@
 </a>
 </g>
 </g>
-<!-- CALL_8c92d80&#45;&gt;CALL_8c94140 -->
+<!-- CALL_a16bec0&#45;&gt;CALL_a16d180 -->
 <g id="edge6" class="edge">
-<title>CALL_8c92d80&#45;&gt;CALL_8c94140</title>
+<title>CALL_a16bec0&#45;&gt;CALL_a16d180</title>
 <path fill="none" stroke="black" d="M407.5,-1449.58C407.5,-1441.86 407.5,-1432.59 407.5,-1423.99"/>
 <polygon fill="black" stroke="black" points="411,-1423.98 407.5,-1413.98 404,-1423.98 411,-1423.98"/>
 </g>
-<!-- CALL_8c96200 -->
+<!-- CALL_a16f1a0 -->
 <g id="node8" class="node">
-<title>CALL_8c96200</title>
+<title>CALL_a16f1a0</title>
 <g id="a_node8"><a xlink:href="REALLOCATE_INTEGER_ARRAY.svg" xlink:title="REALLOCATE_INTEGER_ARRAY">
 <polygon fill="lightgray" stroke="black" points="531.5,-1341.88 283.5,-1341.88 283.5,-1337.88 279.5,-1337.88 279.5,-1333.88 283.5,-1333.88 283.5,-1313.88 279.5,-1313.88 279.5,-1309.88 283.5,-1309.88 283.5,-1305.88 531.5,-1305.88 531.5,-1341.88"/>
 <polyline fill="none" stroke="black" points="283.5,-1337.88 287.5,-1337.88 287.5,-1333.88 283.5,-1333.88 "/>
@@ -132,15 +132,15 @@
 </a>
 </g>
 </g>
-<!-- CALL_8c94140&#45;&gt;CALL_8c96200 -->
+<!-- CALL_a16d180&#45;&gt;CALL_a16f1a0 -->
 <g id="edge7" class="edge">
-<title>CALL_8c94140&#45;&gt;CALL_8c96200</title>
+<title>CALL_a16d180&#45;&gt;CALL_a16f1a0</title>
 <path fill="none" stroke="black" d="M407.5,-1377.58C407.5,-1369.86 407.5,-1360.59 407.5,-1351.99"/>
 <polygon fill="black" stroke="black" points="411,-1351.98 407.5,-1341.98 404,-1351.98 411,-1351.98"/>
 </g>
-<!-- CALL_8c97da0 -->
+<!-- CALL_a171120 -->
 <g id="node9" class="node">
-<title>CALL_8c97da0</title>
+<title>CALL_a171120</title>
 <g id="a_node9"><a xlink:href="REALLOCATE_REAL_ARRAY.svg" xlink:title="REALLOCATE_REAL_ARRAY">
 <polygon fill="lightgray" stroke="black" points="516.5,-1269.88 298.5,-1269.88 298.5,-1265.88 294.5,-1265.88 294.5,-1261.88 298.5,-1261.88 298.5,-1241.88 294.5,-1241.88 294.5,-1237.88 298.5,-1237.88 298.5,-1233.88 516.5,-1233.88 516.5,-1269.88"/>
 <polyline fill="none" stroke="black" points="298.5,-1265.88 302.5,-1265.88 302.5,-1261.88 298.5,-1261.88 "/>
@@ -149,98 +149,98 @@
 </a>
 </g>
 </g>
-<!-- CALL_8c96200&#45;&gt;CALL_8c97da0 -->
+<!-- CALL_a16f1a0&#45;&gt;CALL_a171120 -->
 <g id="edge8" class="edge">
-<title>CALL_8c96200&#45;&gt;CALL_8c97da0</title>
+<title>CALL_a16f1a0&#45;&gt;CALL_a171120</title>
 <path fill="none" stroke="black" d="M407.5,-1305.58C407.5,-1297.86 407.5,-1288.59 407.5,-1279.99"/>
 <polygon fill="black" stroke="black" points="411,-1279.98 407.5,-1269.98 404,-1279.98 411,-1279.98"/>
 </g>
-<!-- COMMENT_8c999c0+1 -->
+<!-- COMMENT_a172660+1 -->
 <g id="node10" class="node">
-<title>COMMENT_8c999c0+1</title>
+<title>COMMENT_a172660+1</title>
 <polygon fill="none" stroke="black" points="625.5,-1197.88 183.5,-1197.88 183.5,-1161.88 631.5,-1161.88 631.5,-1191.88 625.5,-1197.88"/>
 <polyline fill="none" stroke="black" points="625.5,-1197.88 625.5,-1191.88 "/>
 <polyline fill="none" stroke="black" points="631.5,-1191.88 625.5,-1191.88 "/>
 <text text-anchor="middle" x="407.5" y="-1176.18" font-family="Times,serif" font-size="14.00">Go through all layers and reallocate arrays where necessary</text>
 </g>
-<!-- CALL_8c97da0&#45;&gt;COMMENT_8c999c0+1 -->
+<!-- CALL_a171120&#45;&gt;COMMENT_a172660+1 -->
 <g id="edge9" class="edge">
-<title>CALL_8c97da0&#45;&gt;COMMENT_8c999c0+1</title>
+<title>CALL_a171120&#45;&gt;COMMENT_a172660+1</title>
 <path fill="none" stroke="black" d="M407.5,-1233.58C407.5,-1225.86 407.5,-1216.59 407.5,-1207.99"/>
 <polygon fill="black" stroke="black" points="411,-1207.98 407.5,-1197.98 404,-1207.98 411,-1207.98"/>
 </g>
-<!-- beginDO_DO_8cb58a0 -->
+<!-- beginDO_DO_8109a40 -->
 <g id="node11" class="node">
-<title>beginDO_DO_8cb58a0</title>
+<title>beginDO_DO_8109a40</title>
 <ellipse fill="black" stroke="black" cx="407.5" cy="-1122.52" rx="0.36" ry="0.36"/>
 </g>
-<!-- COMMENT_8c999c0+1&#45;&gt;beginDO_DO_8cb58a0 -->
+<!-- COMMENT_a172660+1&#45;&gt;beginDO_DO_8109a40 -->
 <g id="edge16" class="edge">
-<title>COMMENT_8c999c0+1&#45;&gt;beginDO_DO_8cb58a0</title>
+<title>COMMENT_a172660+1&#45;&gt;beginDO_DO_8109a40</title>
 <path fill="none" stroke="black" d="M407.5,-1161.67C407.5,-1145.92 407.5,-1124.88 407.5,-1123.58"/>
 </g>
-<!-- COMMENT_8c9b280+1 -->
+<!-- COMMENT_a174ae0+1 -->
 <g id="node13" class="node">
-<title>COMMENT_8c9b280+1</title>
+<title>COMMENT_a174ae0+1</title>
 <polygon fill="none" stroke="black" points="589,-1086.16 220,-1086.16 220,-1050.16 595,-1050.16 595,-1080.16 589,-1086.16"/>
 <polyline fill="none" stroke="black" points="589,-1086.16 589,-1080.16 "/>
 <polyline fill="none" stroke="black" points="595,-1080.16 589,-1080.16 "/>
 <text text-anchor="middle" x="407.5" y="-1064.46" font-family="Times,serif" font-size="14.00">Get the minimum thermal diffusivity for this layer</text>
 </g>
-<!-- beginDO_DO_8cb58a0&#45;&gt;COMMENT_8c9b280+1 -->
+<!-- beginDO_DO_8109a40&#45;&gt;COMMENT_a174ae0+1 -->
 <g id="edge10" class="edge">
-<title>beginDO_DO_8cb58a0&#45;&gt;COMMENT_8c9b280+1</title>
+<title>beginDO_DO_8109a40&#45;&gt;COMMENT_a174ae0+1</title>
 <path fill="none" stroke="black" d="M407.5,-1122.01C407.5,-1120.53 407.5,-1108.48 407.5,-1096.26"/>
 <polygon fill="black" stroke="black" points="411,-1096.18 407.5,-1086.18 404,-1096.18 411,-1096.18"/>
 </g>
-<!-- endDO_DO_8cb58a0 -->
+<!-- endDO_DO_8109a40 -->
 <g id="node12" class="node">
-<title>endDO_DO_8cb58a0</title>
+<title>endDO_DO_8109a40</title>
 <ellipse fill="black" stroke="black" cx="407.5" cy="-653.8" rx="0.36" ry="0.36"/>
 </g>
-<!-- COMMENT_928a7c0+1 -->
+<!-- COMMENT_9d52540+1 -->
 <g id="node19" class="node">
-<title>COMMENT_928a7c0+1</title>
+<title>COMMENT_9d52540+1</title>
 <polygon fill="none" stroke="black" points="512,-617.44 297,-617.44 297,-581.44 518,-581.44 518,-611.44 512,-617.44"/>
 <polyline fill="none" stroke="black" points="512,-617.44 512,-611.44 "/>
 <polyline fill="none" stroke="black" points="518,-611.44 512,-611.44 "/>
 <text text-anchor="middle" x="407.5" y="-595.74" font-family="Times,serif" font-size="14.00">Get the new cell coordinates</text>
 </g>
-<!-- endDO_DO_8cb58a0&#45;&gt;COMMENT_928a7c0+1 -->
+<!-- endDO_DO_8109a40&#45;&gt;COMMENT_9d52540+1 -->
 <g id="edge18" class="edge">
-<title>endDO_DO_8cb58a0&#45;&gt;COMMENT_928a7c0+1</title>
+<title>endDO_DO_8109a40&#45;&gt;COMMENT_9d52540+1</title>
 <path fill="none" stroke="black" d="M407.5,-652.65C407.5,-651.21 407.5,-639.67 407.5,-627.8"/>
 <polygon fill="black" stroke="black" points="411,-627.54 407.5,-617.54 404,-627.54 411,-627.54"/>
 </g>
-<!-- COMMENT_8c94ee0+1 -->
+<!-- COMMENT_a17bbe0+1 -->
 <g id="node14" class="node">
-<title>COMMENT_8c94ee0+1</title>
+<title>COMMENT_a17bbe0+1</title>
 <polygon fill="none" stroke="black" points="569,-1014.16 240,-1014.16 240,-978.16 575,-978.16 575,-1008.16 569,-1014.16"/>
 <polyline fill="none" stroke="black" points="569,-1014.16 569,-1008.16 "/>
 <polyline fill="none" stroke="black" points="575,-1008.16 569,-1008.16 "/>
 <text text-anchor="middle" x="407.5" y="-992.46" font-family="Times,serif" font-size="14.00">Get the new N_CELLS_MAX for this wall cell</text>
 </g>
-<!-- COMMENT_8c9b280+1&#45;&gt;COMMENT_8c94ee0+1 -->
+<!-- COMMENT_a174ae0+1&#45;&gt;COMMENT_a17bbe0+1 -->
 <g id="edge11" class="edge">
-<title>COMMENT_8c9b280+1&#45;&gt;COMMENT_8c94ee0+1</title>
+<title>COMMENT_a174ae0+1&#45;&gt;COMMENT_a17bbe0+1</title>
 <path fill="none" stroke="black" d="M407.5,-1049.86C407.5,-1042.14 407.5,-1032.87 407.5,-1024.27"/>
 <polygon fill="black" stroke="black" points="411,-1024.26 407.5,-1014.26 404,-1024.26 411,-1024.26"/>
 </g>
-<!-- DO_8cab020 -->
+<!-- DO_8101420 -->
 <g id="node15" class="node">
-<title>DO_8cab020</title>
+<title>DO_8101420</title>
 <polygon fill="none" stroke="orange" points="484.5,-942.16 330.5,-942.16 330.5,-906.16 484.5,-906.16 484.5,-942.16"/>
 <text text-anchor="middle" x="407.5" y="-920.46" font-family="Times,serif" font-size="14.00">MATL_REAC_LOOP</text>
 </g>
-<!-- COMMENT_8c94ee0+1&#45;&gt;DO_8cab020 -->
+<!-- COMMENT_a17bbe0+1&#45;&gt;DO_8101420 -->
 <g id="edge12" class="edge">
-<title>COMMENT_8c94ee0+1&#45;&gt;DO_8cab020</title>
+<title>COMMENT_a17bbe0+1&#45;&gt;DO_8101420</title>
 <path fill="none" stroke="black" d="M407.5,-977.86C407.5,-970.14 407.5,-960.87 407.5,-952.27"/>
 <polygon fill="black" stroke="black" points="411,-952.26 407.5,-942.26 404,-952.26 411,-952.26"/>
 </g>
-<!-- CALL_8caf2e0 -->
+<!-- CALL_8104fe0 -->
 <g id="node16" class="node">
-<title>CALL_8caf2e0</title>
+<title>CALL_8104fe0</title>
 <g id="a_node16"><a xlink:href="GET_N_LAYER_CELLS.svg" xlink:title="GET_N_LAYER_CELLS">
 <polygon fill="lightgray" stroke="black" points="496,-870.16 319,-870.16 319,-866.16 315,-866.16 315,-862.16 319,-862.16 319,-842.16 315,-842.16 315,-838.16 319,-838.16 319,-834.16 496,-834.16 496,-870.16"/>
 <polyline fill="none" stroke="black" points="319,-866.16 323,-866.16 323,-862.16 319,-862.16 "/>
@@ -249,29 +249,29 @@
 </a>
 </g>
 </g>
-<!-- DO_8cab020&#45;&gt;CALL_8caf2e0 -->
+<!-- DO_8101420&#45;&gt;CALL_8104fe0 -->
 <g id="edge13" class="edge">
-<title>DO_8cab020&#45;&gt;CALL_8caf2e0</title>
+<title>DO_8101420&#45;&gt;CALL_8104fe0</title>
 <path fill="none" stroke="black" d="M407.5,-905.86C407.5,-898.14 407.5,-888.87 407.5,-880.27"/>
 <polygon fill="black" stroke="black" points="411,-880.26 407.5,-870.26 404,-880.26 411,-880.26"/>
 </g>
-<!-- COMMENT_8cb2aa0+1 -->
+<!-- COMMENT_810b820+1 -->
 <g id="node17" class="node">
-<title>COMMENT_8cb2aa0+1</title>
+<title>COMMENT_810b820+1</title>
 <polygon fill="none" stroke="black" points="563.5,-798.16 245.5,-798.16 245.5,-762.16 569.5,-762.16 569.5,-792.16 563.5,-798.16"/>
 <polyline fill="none" stroke="black" points="563.5,-798.16 563.5,-792.16 "/>
 <polyline fill="none" stroke="black" points="569.5,-792.16 563.5,-792.16 "/>
 <text text-anchor="middle" x="407.5" y="-776.46" font-family="Times,serif" font-size="14.00">Get the new N_CELLS_INI for this wall cell</text>
 </g>
-<!-- CALL_8caf2e0&#45;&gt;COMMENT_8cb2aa0+1 -->
+<!-- CALL_8104fe0&#45;&gt;COMMENT_810b820+1 -->
 <g id="edge14" class="edge">
-<title>CALL_8caf2e0&#45;&gt;COMMENT_8cb2aa0+1</title>
+<title>CALL_8104fe0&#45;&gt;COMMENT_810b820+1</title>
 <path fill="none" stroke="black" d="M407.5,-833.86C407.5,-826.14 407.5,-816.87 407.5,-808.27"/>
 <polygon fill="black" stroke="black" points="411,-808.26 407.5,-798.26 404,-808.26 411,-808.26"/>
 </g>
-<!-- CALL_8cb2aa0 -->
+<!-- CALL_810b820 -->
 <g id="node18" class="node">
-<title>CALL_8cb2aa0</title>
+<title>CALL_810b820</title>
 <g id="a_node18"><a xlink:href="GET_N_LAYER_CELLS.svg" xlink:title="GET_N_LAYER_CELLS">
 <polygon fill="lightgray" stroke="black" points="496,-726.16 319,-726.16 319,-722.16 315,-722.16 315,-718.16 319,-718.16 319,-698.16 315,-698.16 315,-694.16 319,-694.16 319,-690.16 496,-690.16 496,-726.16"/>
 <polyline fill="none" stroke="black" points="319,-722.16 323,-722.16 323,-718.16 319,-718.16 "/>
@@ -280,20 +280,20 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_8cb2aa0+1&#45;&gt;CALL_8cb2aa0 -->
+<!-- COMMENT_810b820+1&#45;&gt;CALL_810b820 -->
 <g id="edge15" class="edge">
-<title>COMMENT_8cb2aa0+1&#45;&gt;CALL_8cb2aa0</title>
+<title>COMMENT_810b820+1&#45;&gt;CALL_810b820</title>
 <path fill="none" stroke="black" d="M407.5,-761.86C407.5,-754.14 407.5,-744.87 407.5,-736.27"/>
 <polygon fill="black" stroke="black" points="411,-736.26 407.5,-726.26 404,-736.26 411,-736.26"/>
 </g>
-<!-- CALL_8cb2aa0&#45;&gt;endDO_DO_8cb58a0 -->
+<!-- CALL_810b820&#45;&gt;endDO_DO_8109a40 -->
 <g id="edge17" class="edge">
-<title>CALL_8cb2aa0&#45;&gt;endDO_DO_8cb58a0</title>
+<title>CALL_810b820&#45;&gt;endDO_DO_8109a40</title>
 <path fill="none" stroke="black" d="M407.5,-690.1C407.5,-675.09 407.5,-655.43 407.5,-654.22"/>
 </g>
-<!-- CALL_8cca880 -->
+<!-- CALL_811c980 -->
 <g id="node20" class="node">
-<title>CALL_8cca880</title>
+<title>CALL_811c980</title>
 <g id="a_node20"><a xlink:href="GET_WALL_NODE_COORDINATES.svg" xlink:title="GET_WALL_NODE_COORDINATES">
 <polygon fill="lightgray" stroke="black" points="539.5,-545.44 275.5,-545.44 275.5,-541.44 271.5,-541.44 271.5,-537.44 275.5,-537.44 275.5,-517.44 271.5,-517.44 271.5,-513.44 275.5,-513.44 275.5,-509.44 539.5,-509.44 539.5,-545.44"/>
 <polyline fill="none" stroke="black" points="275.5,-541.44 279.5,-541.44 279.5,-537.44 275.5,-537.44 "/>
@@ -302,75 +302,75 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_928a7c0+1&#45;&gt;CALL_8cca880 -->
+<!-- COMMENT_9d52540+1&#45;&gt;CALL_811c980 -->
 <g id="edge19" class="edge">
-<title>COMMENT_928a7c0+1&#45;&gt;CALL_8cca880</title>
+<title>COMMENT_9d52540+1&#45;&gt;CALL_811c980</title>
 <path fill="none" stroke="black" d="M407.5,-581.14C407.5,-573.42 407.5,-564.15 407.5,-555.55"/>
 <polygon fill="black" stroke="black" points="411,-555.54 407.5,-545.54 404,-555.54 411,-555.54"/>
 </g>
-<!-- COMMENT_8cc6040+1 -->
+<!-- COMMENT_811a4c0+1 -->
 <g id="node21" class="node">
-<title>COMMENT_8cc6040+1</title>
+<title>COMMENT_811a4c0+1</title>
 <polygon fill="none" stroke="black" points="578.5,-473.44 230.5,-473.44 230.5,-437.44 584.5,-437.44 584.5,-467.44 578.5,-473.44"/>
 <polyline fill="none" stroke="black" points="578.5,-473.44 578.5,-467.44 "/>
 <polyline fill="none" stroke="black" points="584.5,-467.44 578.5,-467.44 "/>
 <text text-anchor="middle" x="407.5" y="-451.74" font-family="Times,serif" font-size="14.00">Reset initial values for some reallocated arrays</text>
 </g>
-<!-- CALL_8cca880&#45;&gt;COMMENT_8cc6040+1 -->
+<!-- CALL_811c980&#45;&gt;COMMENT_811a4c0+1 -->
 <g id="edge20" class="edge">
-<title>CALL_8cca880&#45;&gt;COMMENT_8cc6040+1</title>
+<title>CALL_811c980&#45;&gt;COMMENT_811a4c0+1</title>
 <path fill="none" stroke="black" d="M407.5,-509.14C407.5,-501.42 407.5,-492.15 407.5,-483.55"/>
 <polygon fill="black" stroke="black" points="411,-483.54 407.5,-473.54 404,-483.54 411,-483.54"/>
 </g>
-<!-- beginDO_DO_8cdf420 -->
+<!-- beginDO_DO_8130b00 -->
 <g id="node22" class="node">
-<title>beginDO_DO_8cdf420</title>
+<title>beginDO_DO_8130b00</title>
 <ellipse fill="black" stroke="black" cx="407.5" cy="-398.08" rx="0.36" ry="0.36"/>
 </g>
-<!-- COMMENT_8cc6040+1&#45;&gt;beginDO_DO_8cdf420 -->
+<!-- COMMENT_811a4c0+1&#45;&gt;beginDO_DO_8130b00 -->
 <g id="edge22" class="edge">
-<title>COMMENT_8cc6040+1&#45;&gt;beginDO_DO_8cdf420</title>
+<title>COMMENT_811a4c0+1&#45;&gt;beginDO_DO_8130b00</title>
 <path fill="none" stroke="black" d="M407.5,-437.23C407.5,-421.48 407.5,-400.44 407.5,-399.14"/>
 </g>
-<!-- DO_8cdb140 -->
+<!-- DO_8124e60 -->
 <g id="node24" class="node">
-<title>DO_8cdb140</title>
+<title>DO_8124e60</title>
 <polygon fill="none" stroke="orange" points="483,-361.72 332,-361.72 332,-325.72 483,-325.72 483,-361.72"/>
 <text text-anchor="middle" x="407.5" y="-340.02" font-family="Times,serif" font-size="14.00">MATERIAL_LOOP3</text>
 </g>
-<!-- beginDO_DO_8cdf420&#45;&gt;DO_8cdb140 -->
+<!-- beginDO_DO_8130b00&#45;&gt;DO_8124e60 -->
 <g id="edge21" class="edge">
-<title>beginDO_DO_8cdf420&#45;&gt;DO_8cdb140</title>
+<title>beginDO_DO_8130b00&#45;&gt;DO_8124e60</title>
 <path fill="none" stroke="black" d="M407.5,-397.57C407.5,-396.09 407.5,-384.04 407.5,-371.82"/>
 <polygon fill="black" stroke="black" points="411,-371.74 407.5,-361.74 404,-371.74 411,-371.74"/>
 </g>
-<!-- endDO_DO_8cdf420 -->
+<!-- endDO_DO_8130b00 -->
 <g id="node23" class="node">
-<title>endDO_DO_8cdf420</title>
+<title>endDO_DO_8130b00</title>
 <ellipse fill="black" stroke="black" cx="407.5" cy="-289.36" rx="0.36" ry="0.36"/>
 </g>
-<!-- COMMENT_8ce1100+1 -->
+<!-- COMMENT_8130bc0+1 -->
 <g id="node25" class="node">
-<title>COMMENT_8ce1100+1</title>
+<title>COMMENT_8130bc0+1</title>
 <polygon fill="none" stroke="black" points="809,-253 0,-253 0,-217 815,-217 815,-247 809,-253"/>
 <polyline fill="none" stroke="black" points="809,-253 809,-247 "/>
 <polyline fill="none" stroke="black" points="815,-247 809,-247 "/>
 <text text-anchor="middle" x="407.5" y="-231.3" font-family="Times,serif" font-size="14.00">Count the numbers of REALs, INTEGERs, and LOGICALs in the new WALL or THIN_WALL derived type variable</text>
 </g>
-<!-- endDO_DO_8cdf420&#45;&gt;COMMENT_8ce1100+1 -->
+<!-- endDO_DO_8130b00&#45;&gt;COMMENT_8130bc0+1 -->
 <g id="edge24" class="edge">
-<title>endDO_DO_8cdf420&#45;&gt;COMMENT_8ce1100+1</title>
+<title>endDO_DO_8130b00&#45;&gt;COMMENT_8130bc0+1</title>
 <path fill="none" stroke="black" d="M407.5,-288.21C407.5,-286.77 407.5,-275.23 407.5,-263.36"/>
 <polygon fill="black" stroke="black" points="411,-263.1 407.5,-253.1 404,-263.1 411,-263.1"/>
 </g>
-<!-- DO_8cdb140&#45;&gt;endDO_DO_8cdf420 -->
+<!-- DO_8124e60&#45;&gt;endDO_DO_8130b00 -->
 <g id="edge23" class="edge">
-<title>DO_8cdb140&#45;&gt;endDO_DO_8cdf420</title>
+<title>DO_8124e60&#45;&gt;endDO_DO_8130b00</title>
 <path fill="none" stroke="black" d="M407.5,-325.66C407.5,-310.65 407.5,-290.99 407.5,-289.78"/>
 </g>
-<!-- CALL_8ce4320 -->
+<!-- CALL_8137d80 -->
 <g id="node26" class="node">
-<title>CALL_8ce4320</title>
+<title>CALL_8137d80</title>
 <g id="a_node26"><a xlink:href="PACK_WALL.svg" xlink:title="PACK_WALL">
 <polygon fill="lightgray" stroke="black" points="459.5,-181 355.5,-181 355.5,-177 351.5,-177 351.5,-173 355.5,-173 355.5,-153 351.5,-153 351.5,-149 355.5,-149 355.5,-145 459.5,-145 459.5,-181"/>
 <polyline fill="none" stroke="black" points="355.5,-177 359.5,-177 359.5,-173 355.5,-173 "/>
@@ -379,15 +379,15 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_8ce1100+1&#45;&gt;CALL_8ce4320 -->
+<!-- COMMENT_8130bc0+1&#45;&gt;CALL_8137d80 -->
 <g id="edge25" class="edge">
-<title>COMMENT_8ce1100+1&#45;&gt;CALL_8ce4320</title>
+<title>COMMENT_8130bc0+1&#45;&gt;CALL_8137d80</title>
 <path fill="none" stroke="black" d="M407.5,-216.7C407.5,-208.98 407.5,-199.71 407.5,-191.11"/>
 <polygon fill="black" stroke="black" points="411,-191.1 407.5,-181.1 404,-191.1 411,-191.1"/>
 </g>
-<!-- CALL_8ce8760 -->
+<!-- CALL_813c0c0 -->
 <g id="node27" class="node">
-<title>CALL_8ce8760</title>
+<title>CALL_813c0c0</title>
 <g id="a_node27"><a xlink:href="PACK_THIN_WALL.svg" xlink:title="PACK_THIN_WALL">
 <polygon fill="lightgray" stroke="black" points="482,-109 333,-109 333,-105 329,-105 329,-101 333,-101 333,-81 329,-81 329,-77 333,-77 333,-73 482,-73 482,-109"/>
 <polyline fill="none" stroke="black" points="333,-105 337,-105 337,-101 333,-101 "/>
@@ -396,20 +396,20 @@
 </a>
 </g>
 </g>
-<!-- CALL_8ce4320&#45;&gt;CALL_8ce8760 -->
+<!-- CALL_8137d80&#45;&gt;CALL_813c0c0 -->
 <g id="edge26" class="edge">
-<title>CALL_8ce4320&#45;&gt;CALL_8ce8760</title>
+<title>CALL_8137d80&#45;&gt;CALL_813c0c0</title>
 <path fill="none" stroke="black" d="M407.5,-144.7C407.5,-136.98 407.5,-127.71 407.5,-119.11"/>
 <polygon fill="black" stroke="black" points="411,-119.1 407.5,-109.1 404,-119.1 411,-119.1"/>
 </g>
-<!-- end_SUBPROGRAM_8ce8b80 -->
+<!-- end_SUBPROGRAM_813c5a0 -->
 <g id="node28" class="node">
-<title>end_SUBPROGRAM_8ce8b80</title>
+<title>end_SUBPROGRAM_813c5a0</title>
 <ellipse fill="black" stroke="black" cx="407.5" cy="-30" rx="7" ry="7"/>
 </g>
-<!-- CALL_8ce8760&#45;&gt;end_SUBPROGRAM_8ce8b80 -->
+<!-- CALL_813c0c0&#45;&gt;end_SUBPROGRAM_813c5a0 -->
 <g id="edge27" class="edge">
-<title>CALL_8ce8760&#45;&gt;end_SUBPROGRAM_8ce8b80</title>
+<title>CALL_813c0c0&#45;&gt;end_SUBPROGRAM_813c5a0</title>
 <path fill="none" stroke="black" d="M407.5,-72.93C407.5,-64.89 407.5,-55.33 407.5,-47.37"/>
 <polygon fill="black" stroke="black" points="411,-47.22 407.5,-37.22 404,-47.22 411,-47.22"/>
 </g>

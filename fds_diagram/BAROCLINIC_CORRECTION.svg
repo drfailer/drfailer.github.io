@@ -10,14 +10,14 @@
 <title>BAROCLINIC_CORRECTION</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-900 686,-900 686,4 -4,4"/>
 <text text-anchor="middle" x="341" y="-7.8" font-family="Times,serif" font-size="14.00">BAROCLINIC_CORRECTION</text>
-<!-- start_SUBPROGRAM_952c180 -->
+<!-- start_SUBPROGRAM_8d25f80 -->
 <g id="node1" class="node">
-<title>start_SUBPROGRAM_952c180</title>
+<title>start_SUBPROGRAM_8d25f80</title>
 <ellipse fill="none" stroke="black" cx="341" cy="-889" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_93d3b80+1 -->
+<!-- COMMENT_8bcc400+1 -->
 <g id="node2" class="node">
-<title>COMMENT_93d3b80+1</title>
+<title>COMMENT_8bcc400+1</title>
 <polygon fill="none" stroke="black" points="543.5,-846 132.5,-846 132.5,-793 549.5,-793 549.5,-840 543.5,-846"/>
 <polyline fill="none" stroke="black" points="543.5,-846 543.5,-840 "/>
 <polyline fill="none" stroke="black" points="549.5,-840 543.5,-840 "/>
@@ -25,15 +25,15 @@
 <text text-anchor="middle" x="341" y="-815.8" font-family="Times,serif" font-size="14.00">!&gt; param T Current time (s)</text>
 <text text-anchor="middle" x="341" y="-800.8" font-family="Times,serif" font-size="14.00">!&gt; param NM Mesh number</text>
 </g>
-<!-- start_SUBPROGRAM_952c180&#45;&gt;COMMENT_93d3b80+1 -->
+<!-- start_SUBPROGRAM_8d25f80&#45;&gt;COMMENT_8bcc400+1 -->
 <g id="edge1" class="edge">
-<title>start_SUBPROGRAM_952c180&#45;&gt;COMMENT_93d3b80+1</title>
+<title>start_SUBPROGRAM_8d25f80&#45;&gt;COMMENT_8bcc400+1</title>
 <path fill="none" stroke="black" d="M341,-881.77C341,-875.76 341,-866.16 341,-856.32"/>
 <polygon fill="black" stroke="black" points="344.5,-856.12 341,-846.12 337.5,-856.12 344.5,-856.12"/>
 </g>
-<!-- CALL_93d7480 -->
+<!-- CALL_8bd2180 -->
 <g id="node3" class="node">
-<title>CALL_93d7480</title>
+<title>CALL_8bd2180</title>
 <g id="a_node3"><a xlink:href="POINT_TO_MESH.svg" xlink:title="POINT_TO_MESH">
 <polygon fill="lightgray" stroke="black" points="413,-757 269,-757 269,-753 265,-753 265,-749 269,-749 269,-729 265,-729 265,-725 269,-725 269,-721 413,-721 413,-757"/>
 <polyline fill="none" stroke="black" points="269,-753 273,-753 273,-749 269,-749 "/>
@@ -42,121 +42,121 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_93d3b80+1&#45;&gt;CALL_93d7480 -->
+<!-- COMMENT_8bcc400+1&#45;&gt;CALL_8bd2180 -->
 <g id="edge2" class="edge">
-<title>COMMENT_93d3b80+1&#45;&gt;CALL_93d7480</title>
+<title>COMMENT_8bcc400+1&#45;&gt;CALL_8bd2180</title>
 <path fill="none" stroke="black" d="M341,-792.8C341,-784.71 341,-775.76 341,-767.55"/>
 <polygon fill="black" stroke="black" points="344.5,-767.33 341,-757.33 337.5,-767.33 344.5,-767.33"/>
 </g>
-<!-- COMMENT_93d7600+1 -->
+<!-- COMMENT_8bc9a80+1 -->
 <g id="node4" class="node">
-<title>COMMENT_93d7600+1</title>
+<title>COMMENT_8bc9a80+1</title>
 <polygon fill="none" stroke="black" points="676,-685 0,-685 0,-649 682,-649 682,-679 676,-685"/>
 <polyline fill="none" stroke="black" points="676,-685 676,-679 "/>
 <polyline fill="none" stroke="black" points="682,-679 676,-679 "/>
 <text text-anchor="middle" x="341" y="-663.3" font-family="Times,serif" font-size="14.00">If the baroclinic torque term has been added to the momentum equation RHS, subtract it off.</text>
 </g>
-<!-- CALL_93d7480&#45;&gt;COMMENT_93d7600+1 -->
+<!-- CALL_8bd2180&#45;&gt;COMMENT_8bc9a80+1 -->
 <g id="edge3" class="edge">
-<title>CALL_93d7480&#45;&gt;COMMENT_93d7600+1</title>
+<title>CALL_8bd2180&#45;&gt;COMMENT_8bc9a80+1</title>
 <path fill="none" stroke="black" d="M341,-720.7C341,-712.98 341,-703.71 341,-695.11"/>
 <polygon fill="black" stroke="black" points="344.5,-695.1 341,-685.1 337.5,-695.1 344.5,-695.1"/>
 </g>
-<!-- COMMENT_93de440+1 -->
+<!-- COMMENT_8bd8f40+1 -->
 <g id="node5" class="node">
-<title>COMMENT_93de440+1</title>
+<title>COMMENT_8bd8f40+1</title>
 <polygon fill="none" stroke="black" points="505,-613 171,-613 171,-577 511,-577 511,-607 505,-613"/>
 <polyline fill="none" stroke="black" points="505,-613 505,-607 "/>
 <polyline fill="none" stroke="black" points="511,-607 505,-607 "/>
 <text text-anchor="middle" x="341" y="-591.3" font-family="Times,serif" font-size="14.00">Compute pressure and 1/rho in each grid cell</text>
 </g>
-<!-- COMMENT_93d7600+1&#45;&gt;COMMENT_93de440+1 -->
+<!-- COMMENT_8bc9a80+1&#45;&gt;COMMENT_8bd8f40+1 -->
 <g id="edge4" class="edge">
-<title>COMMENT_93d7600+1&#45;&gt;COMMENT_93de440+1</title>
+<title>COMMENT_8bc9a80+1&#45;&gt;COMMENT_8bd8f40+1</title>
 <path fill="none" stroke="black" d="M341,-648.7C341,-640.98 341,-631.71 341,-623.11"/>
 <polygon fill="black" stroke="black" points="344.5,-623.1 341,-613.1 337.5,-623.1 344.5,-623.1"/>
 </g>
-<!-- COMMENT_93e93c0+2 -->
+<!-- COMMENT_8be3c80+2 -->
 <g id="node6" class="node">
-<title>COMMENT_93e93c0+2</title>
+<title>COMMENT_8be3c80+2</title>
 <polygon fill="none" stroke="black" points="589.5,-541 86.5,-541 86.5,-505 595.5,-505 595.5,-535 589.5,-541"/>
 <polyline fill="none" stroke="black" points="589.5,-541 589.5,-535 "/>
 <polyline fill="none" stroke="black" points="595.5,-535 589.5,-535 "/>
 <text text-anchor="middle" x="341" y="-519.3" font-family="Times,serif" font-size="14.00">Compute baroclinic term in the x momentum equation, p*d/dx(1/rho)</text>
 </g>
-<!-- COMMENT_93de440+1&#45;&gt;COMMENT_93e93c0+2 -->
+<!-- COMMENT_8bd8f40+1&#45;&gt;COMMENT_8be3c80+2 -->
 <g id="edge5" class="edge">
-<title>COMMENT_93de440+1&#45;&gt;COMMENT_93e93c0+2</title>
+<title>COMMENT_8bd8f40+1&#45;&gt;COMMENT_8be3c80+2</title>
 <path fill="none" stroke="black" d="M341,-576.7C341,-568.98 341,-559.71 341,-551.11"/>
 <polygon fill="black" stroke="black" points="344.5,-551.1 341,-541.1 337.5,-551.1 344.5,-551.1"/>
 </g>
-<!-- OMP_DO_93e93c0+3 -->
+<!-- OMP_DO_8be3c80+3 -->
 <g id="node7" class="node">
-<title>OMP_DO_93e93c0+3</title>
+<title>OMP_DO_8be3c80+3</title>
 <polygon fill="red" stroke="black" points="464,-469 218,-469 218,-433 464,-433 464,-469"/>
 <text text-anchor="middle" x="341" y="-447.3" font-family="Times,serif" font-size="14.00">!$OMP DO SCHEDULE(STATIC)</text>
 </g>
-<!-- COMMENT_93e93c0+2&#45;&gt;OMP_DO_93e93c0+3 -->
+<!-- COMMENT_8be3c80+2&#45;&gt;OMP_DO_8be3c80+3 -->
 <g id="edge6" class="edge">
-<title>COMMENT_93e93c0+2&#45;&gt;OMP_DO_93e93c0+3</title>
+<title>COMMENT_8be3c80+2&#45;&gt;OMP_DO_8be3c80+3</title>
 <path fill="none" stroke="black" d="M341,-504.7C341,-496.98 341,-487.71 341,-479.11"/>
 <polygon fill="black" stroke="black" points="344.5,-479.1 341,-469.1 337.5,-479.1 344.5,-479.1"/>
 </g>
-<!-- COMMENT_93fe740+2 -->
+<!-- COMMENT_8bebb00+2 -->
 <g id="node8" class="node">
-<title>COMMENT_93fe740+2</title>
+<title>COMMENT_8bebb00+2</title>
 <polygon fill="none" stroke="black" points="589.5,-397 86.5,-397 86.5,-361 595.5,-361 595.5,-391 589.5,-397"/>
 <polyline fill="none" stroke="black" points="589.5,-397 589.5,-391 "/>
 <polyline fill="none" stroke="black" points="595.5,-391 589.5,-391 "/>
 <text text-anchor="middle" x="341" y="-375.3" font-family="Times,serif" font-size="14.00">Compute baroclinic term in the y momentum equation, p*d/dy(1/rho)</text>
 </g>
-<!-- OMP_DO_93e93c0+3&#45;&gt;COMMENT_93fe740+2 -->
+<!-- OMP_DO_8be3c80+3&#45;&gt;COMMENT_8bebb00+2 -->
 <g id="edge7" class="edge">
-<title>OMP_DO_93e93c0+3&#45;&gt;COMMENT_93fe740+2</title>
+<title>OMP_DO_8be3c80+3&#45;&gt;COMMENT_8bebb00+2</title>
 <path fill="none" stroke="black" d="M341,-432.7C341,-424.98 341,-415.71 341,-407.11"/>
 <polygon fill="black" stroke="black" points="344.5,-407.1 341,-397.1 337.5,-407.1 344.5,-407.1"/>
 </g>
-<!-- OMP_DO_93fed40+1 -->
+<!-- OMP_DO_8bf95c0+1 -->
 <g id="node9" class="node">
-<title>OMP_DO_93fed40+1</title>
+<title>OMP_DO_8bf95c0+1</title>
 <polygon fill="red" stroke="black" points="464,-325 218,-325 218,-289 464,-289 464,-325"/>
 <text text-anchor="middle" x="341" y="-303.3" font-family="Times,serif" font-size="14.00">!$OMP DO SCHEDULE(STATIC)</text>
 </g>
-<!-- COMMENT_93fe740+2&#45;&gt;OMP_DO_93fed40+1 -->
+<!-- COMMENT_8bebb00+2&#45;&gt;OMP_DO_8bf95c0+1 -->
 <g id="edge8" class="edge">
-<title>COMMENT_93fe740+2&#45;&gt;OMP_DO_93fed40+1</title>
+<title>COMMENT_8bebb00+2&#45;&gt;OMP_DO_8bf95c0+1</title>
 <path fill="none" stroke="black" d="M341,-360.7C341,-352.98 341,-343.71 341,-335.11"/>
 <polygon fill="black" stroke="black" points="344.5,-335.1 341,-325.1 337.5,-335.1 344.5,-335.1"/>
 </g>
-<!-- COMMENT_9514e80+1 -->
+<!-- COMMENT_8d0fba0+1 -->
 <g id="node10" class="node">
-<title>COMMENT_9514e80+1</title>
+<title>COMMENT_8d0fba0+1</title>
 <polygon fill="none" stroke="black" points="588.5,-253 87.5,-253 87.5,-217 594.5,-217 594.5,-247 588.5,-253"/>
 <polyline fill="none" stroke="black" points="588.5,-253 588.5,-247 "/>
 <polyline fill="none" stroke="black" points="594.5,-247 588.5,-247 "/>
 <text text-anchor="middle" x="341" y="-231.3" font-family="Times,serif" font-size="14.00">Compute baroclinic term in the z momentum equation, p*d/dz(1/rho)</text>
 </g>
-<!-- OMP_DO_93fed40+1&#45;&gt;COMMENT_9514e80+1 -->
+<!-- OMP_DO_8bf95c0+1&#45;&gt;COMMENT_8d0fba0+1 -->
 <g id="edge9" class="edge">
-<title>OMP_DO_93fed40+1&#45;&gt;COMMENT_9514e80+1</title>
+<title>OMP_DO_8bf95c0+1&#45;&gt;COMMENT_8d0fba0+1</title>
 <path fill="none" stroke="black" d="M341,-288.7C341,-280.98 341,-271.71 341,-263.11"/>
 <polygon fill="black" stroke="black" points="344.5,-263.1 341,-253.1 337.5,-263.1 344.5,-263.1"/>
 </g>
-<!-- OMP_DO_9514e80+2 -->
+<!-- OMP_DO_8d0fba0+2 -->
 <g id="node11" class="node">
-<title>OMP_DO_9514e80+2</title>
+<title>OMP_DO_8d0fba0+2</title>
 <polygon fill="red" stroke="black" points="464,-181 218,-181 218,-145 464,-145 464,-181"/>
 <text text-anchor="middle" x="341" y="-159.3" font-family="Times,serif" font-size="14.00">!$OMP DO SCHEDULE(STATIC)</text>
 </g>
-<!-- COMMENT_9514e80+1&#45;&gt;OMP_DO_9514e80+2 -->
+<!-- COMMENT_8d0fba0+1&#45;&gt;OMP_DO_8d0fba0+2 -->
 <g id="edge10" class="edge">
-<title>COMMENT_9514e80+1&#45;&gt;OMP_DO_9514e80+2</title>
+<title>COMMENT_8d0fba0+1&#45;&gt;OMP_DO_8d0fba0+2</title>
 <path fill="none" stroke="black" d="M341,-216.7C341,-208.98 341,-199.71 341,-191.11"/>
 <polygon fill="black" stroke="black" points="344.5,-191.1 341,-181.1 337.5,-191.1 344.5,-191.1"/>
 </g>
-<!-- CALL_952b1c0 -->
+<!-- CALL_8d26360 -->
 <g id="node12" class="node">
-<title>CALL_952b1c0</title>
+<title>CALL_8d26360</title>
 <g id="a_node12"><a xlink:href="CC_BAROCLINIC_CORRECTION.svg" xlink:title="CC_BAROCLINIC_CORRECTION">
 <polygon fill="lightgray" stroke="black" points="464.5,-109 217.5,-109 217.5,-105 213.5,-105 213.5,-101 217.5,-101 217.5,-81 213.5,-81 213.5,-77 217.5,-77 217.5,-73 464.5,-73 464.5,-109"/>
 <polyline fill="none" stroke="black" points="217.5,-105 221.5,-105 221.5,-101 217.5,-101 "/>
@@ -165,20 +165,20 @@
 </a>
 </g>
 </g>
-<!-- OMP_DO_9514e80+2&#45;&gt;CALL_952b1c0 -->
+<!-- OMP_DO_8d0fba0+2&#45;&gt;CALL_8d26360 -->
 <g id="edge11" class="edge">
-<title>OMP_DO_9514e80+2&#45;&gt;CALL_952b1c0</title>
+<title>OMP_DO_8d0fba0+2&#45;&gt;CALL_8d26360</title>
 <path fill="none" stroke="black" d="M341,-144.7C341,-136.98 341,-127.71 341,-119.11"/>
 <polygon fill="black" stroke="black" points="344.5,-119.1 341,-109.1 337.5,-119.1 344.5,-119.1"/>
 </g>
-<!-- end_SUBPROGRAM_952c180 -->
+<!-- end_SUBPROGRAM_8d25f80 -->
 <g id="node13" class="node">
-<title>end_SUBPROGRAM_952c180</title>
+<title>end_SUBPROGRAM_8d25f80</title>
 <ellipse fill="black" stroke="black" cx="341" cy="-30" rx="7" ry="7"/>
 </g>
-<!-- CALL_952b1c0&#45;&gt;end_SUBPROGRAM_952c180 -->
+<!-- CALL_8d26360&#45;&gt;end_SUBPROGRAM_8d25f80 -->
 <g id="edge12" class="edge">
-<title>CALL_952b1c0&#45;&gt;end_SUBPROGRAM_952c180</title>
+<title>CALL_8d26360&#45;&gt;end_SUBPROGRAM_8d25f80</title>
 <path fill="none" stroke="black" d="M341,-72.93C341,-64.89 341,-55.33 341,-47.37"/>
 <polygon fill="black" stroke="black" points="344.5,-47.22 341,-37.22 337.5,-47.22 344.5,-47.22"/>
 </g>
