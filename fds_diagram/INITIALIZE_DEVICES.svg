@@ -15,39 +15,39 @@
 <polygon fill="none" stroke="orange" points="43,-65 43,-357.44 455,-357.44 455,-65 43,-65"/>
 <text text-anchor="middle" x="104" y="-342.24" font-family="Times,serif" font-size="14.00">DEVICE_LOOP</text>
 </g>
-<!-- start_SUBPROGRAM_8553a20 -->
+<!-- start_SUBPROGRAM_8350a00 -->
 <g id="node1" class="node">
-<title>start_SUBPROGRAM_8553a20</title>
+<title>start_SUBPROGRAM_8350a00</title>
 <ellipse fill="none" stroke="black" cx="249" cy="-446.44" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_8528d40+1 -->
+<!-- COMMENT_8327a00+1 -->
 <g id="node2" class="node">
-<title>COMMENT_8528d40+1</title>
+<title>COMMENT_8327a00+1</title>
 <polygon fill="none" stroke="black" points="492,-403.44 0,-403.44 0,-365.44 498,-365.44 498,-397.44 492,-403.44"/>
 <polyline fill="none" stroke="black" points="492,-403.44 492,-397.44 "/>
 <polyline fill="none" stroke="black" points="498,-397.44 492,-397.44 "/>
 <text text-anchor="middle" x="249" y="-388.24" font-family="Times,serif" font-size="14.00">!&gt; brief Find the WALL_INDEX for a device that is near a solid wall</text>
 <text text-anchor="middle" x="249" y="-373.24" font-family="Times,serif" font-size="14.00">!&gt; param NM Mesh number</text>
 </g>
-<!-- start_SUBPROGRAM_8553a20&#45;&gt;COMMENT_8528d40+1 -->
+<!-- start_SUBPROGRAM_8350a00&#45;&gt;COMMENT_8327a00+1 -->
 <g id="edge1" class="edge">
-<title>start_SUBPROGRAM_8553a20&#45;&gt;COMMENT_8528d40+1</title>
+<title>start_SUBPROGRAM_8350a00&#45;&gt;COMMENT_8327a00+1</title>
 <path fill="none" stroke="black" d="M249,-439.02C249,-432.85 249,-423.08 249,-413.56"/>
 <polygon fill="black" stroke="black" points="252.5,-413.52 249,-403.52 245.5,-413.52 252.5,-413.52"/>
 </g>
-<!-- beginDO_DO_8552a40 -->
+<!-- beginDO_DO_8350140 -->
 <g id="node3" class="node">
-<title>beginDO_DO_8552a40</title>
+<title>beginDO_DO_8350140</title>
 <ellipse fill="black" stroke="black" cx="249" cy="-326.08" rx="0.36" ry="0.36"/>
 </g>
-<!-- COMMENT_8528d40+1&#45;&gt;beginDO_DO_8552a40 -->
+<!-- COMMENT_8327a00+1&#45;&gt;beginDO_DO_8350140 -->
 <g id="edge5" class="edge">
-<title>COMMENT_8528d40+1&#45;&gt;beginDO_DO_8552a40</title>
+<title>COMMENT_8327a00+1&#45;&gt;beginDO_DO_8350140</title>
 <path fill="none" stroke="black" d="M249,-365.3C249,-349.34 249,-328.43 249,-327.14"/>
 </g>
-<!-- CALL_853baa0 -->
+<!-- CALL_833ab00 -->
 <g id="node5" class="node">
-<title>CALL_853baa0</title>
+<title>CALL_833ab00</title>
 <g id="a_node5"><a xlink:href="GET_WALL_INDEX.svg" xlink:title="GET_WALL_INDEX">
 <polygon fill="lightgray" stroke="black" points="324.5,-289.72 173.5,-289.72 173.5,-285.72 169.5,-285.72 169.5,-281.72 173.5,-281.72 173.5,-261.72 169.5,-261.72 169.5,-257.72 173.5,-257.72 173.5,-253.72 324.5,-253.72 324.5,-289.72"/>
 <polyline fill="none" stroke="black" points="173.5,-285.72 177.5,-285.72 177.5,-281.72 173.5,-281.72 "/>
@@ -56,31 +56,31 @@
 </a>
 </g>
 </g>
-<!-- beginDO_DO_8552a40&#45;&gt;CALL_853baa0 -->
+<!-- beginDO_DO_8350140&#45;&gt;CALL_833ab00 -->
 <g id="edge2" class="edge">
-<title>beginDO_DO_8552a40&#45;&gt;CALL_853baa0</title>
+<title>beginDO_DO_8350140&#45;&gt;CALL_833ab00</title>
 <path fill="none" stroke="black" d="M249,-325.57C249,-324.09 249,-312.04 249,-299.82"/>
 <polygon fill="black" stroke="black" points="252.5,-299.74 249,-289.74 245.5,-299.74 252.5,-299.74"/>
 </g>
-<!-- endDO_DO_8552a40 -->
+<!-- endDO_DO_8350140 -->
 <g id="node4" class="node">
-<title>endDO_DO_8552a40</title>
+<title>endDO_DO_8350140</title>
 <ellipse fill="black" stroke="black" cx="249" cy="-73.36" rx="0.36" ry="0.36"/>
 </g>
-<!-- end_SUBPROGRAM_8553a20 -->
+<!-- end_SUBPROGRAM_8350a00 -->
 <g id="node8" class="node">
-<title>end_SUBPROGRAM_8553a20</title>
+<title>end_SUBPROGRAM_8350a00</title>
 <ellipse fill="black" stroke="black" cx="249" cy="-30" rx="7" ry="7"/>
 </g>
-<!-- endDO_DO_8552a40&#45;&gt;end_SUBPROGRAM_8553a20 -->
+<!-- endDO_DO_8350140&#45;&gt;end_SUBPROGRAM_8350a00 -->
 <g id="edge7" class="edge">
-<title>endDO_DO_8552a40&#45;&gt;end_SUBPROGRAM_8553a20</title>
+<title>endDO_DO_8350140&#45;&gt;end_SUBPROGRAM_8350a00</title>
 <path fill="none" stroke="black" d="M249,-72.24C249,-70.89 249,-58.27 249,-47.34"/>
 <polygon fill="black" stroke="black" points="252.5,-47.1 249,-37.1 245.5,-47.1 252.5,-47.1"/>
 </g>
-<!-- CALL_853e600 -->
+<!-- CALL_833d6e0 -->
 <g id="node6" class="node">
-<title>CALL_853e600</title>
+<title>CALL_833d6e0</title>
 <g id="a_node6"><a xlink:href="GET_CFACE_INDEX.svg" xlink:title="GET_CFACE_INDEX">
 <polygon fill="lightgray" stroke="black" points="328.5,-217.72 169.5,-217.72 169.5,-213.72 165.5,-213.72 165.5,-209.72 169.5,-209.72 169.5,-189.72 165.5,-189.72 165.5,-185.72 169.5,-185.72 169.5,-181.72 328.5,-181.72 328.5,-217.72"/>
 <polyline fill="none" stroke="black" points="169.5,-213.72 173.5,-213.72 173.5,-209.72 169.5,-209.72 "/>
@@ -89,29 +89,29 @@
 </a>
 </g>
 </g>
-<!-- CALL_853baa0&#45;&gt;CALL_853e600 -->
+<!-- CALL_833ab00&#45;&gt;CALL_833d6e0 -->
 <g id="edge3" class="edge">
-<title>CALL_853baa0&#45;&gt;CALL_853e600</title>
+<title>CALL_833ab00&#45;&gt;CALL_833d6e0</title>
 <path fill="none" stroke="black" d="M249,-253.42C249,-245.7 249,-236.43 249,-227.83"/>
 <polygon fill="black" stroke="black" points="252.5,-227.82 249,-217.82 245.5,-227.82 252.5,-227.82"/>
 </g>
-<!-- COMMENT_8541000+1 -->
+<!-- COMMENT_833fe80+1 -->
 <g id="node7" class="node">
-<title>COMMENT_8541000+1</title>
+<title>COMMENT_833fe80+1</title>
 <polygon fill="none" stroke="black" points="440.5,-145.72 51.5,-145.72 51.5,-109.72 446.5,-109.72 446.5,-139.72 440.5,-145.72"/>
 <polyline fill="none" stroke="black" points="440.5,-145.72 440.5,-139.72 "/>
 <polyline fill="none" stroke="black" points="446.5,-139.72 440.5,-139.72 "/>
 <text text-anchor="middle" x="249" y="-124.02" font-family="Times,serif" font-size="14.00">Make sure that thermally&#45;thick output is appropriate</text>
 </g>
-<!-- CALL_853e600&#45;&gt;COMMENT_8541000+1 -->
+<!-- CALL_833d6e0&#45;&gt;COMMENT_833fe80+1 -->
 <g id="edge4" class="edge">
-<title>CALL_853e600&#45;&gt;COMMENT_8541000+1</title>
+<title>CALL_833d6e0&#45;&gt;COMMENT_833fe80+1</title>
 <path fill="none" stroke="black" d="M249,-181.42C249,-173.7 249,-164.43 249,-155.83"/>
 <polygon fill="black" stroke="black" points="252.5,-155.82 249,-145.82 245.5,-155.82 252.5,-155.82"/>
 </g>
-<!-- COMMENT_8541000+1&#45;&gt;endDO_DO_8552a40 -->
+<!-- COMMENT_833fe80+1&#45;&gt;endDO_DO_8350140 -->
 <g id="edge6" class="edge">
-<title>COMMENT_8541000+1&#45;&gt;endDO_DO_8552a40</title>
+<title>COMMENT_833fe80+1&#45;&gt;endDO_DO_8350140</title>
 <path fill="none" stroke="black" d="M249,-109.66C249,-94.65 249,-74.99 249,-73.78"/>
 </g>
 </g>

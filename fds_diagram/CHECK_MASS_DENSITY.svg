@@ -15,167 +15,167 @@
 <polygon fill="none" stroke="orange" points="113.5,-209 113.5,-357.44 485.5,-357.44 485.5,-209 113.5,-209"/>
 <text text-anchor="middle" x="179" y="-342.24" font-family="Times,serif" font-size="14.00">SPECIES_LOOP</text>
 </g>
-<!-- start_SUBPROGRAM_9d157a0 -->
+<!-- start_SUBPROGRAM_8548c00 -->
 <g id="node1" class="node">
-<title>start_SUBPROGRAM_9d157a0</title>
+<title>start_SUBPROGRAM_8548c00</title>
 <ellipse fill="none" stroke="black" cx="299.5" cy="-808.44" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_978a580+1 -->
+<!-- COMMENT_833dd00+1 -->
 <g id="node2" class="node">
-<title>COMMENT_978a580+1</title>
+<title>COMMENT_833dd00+1</title>
 <polygon fill="none" stroke="black" points="581,-765.44 12,-765.44 12,-727.44 587,-727.44 587,-759.44 581,-765.44"/>
 <polyline fill="none" stroke="black" points="581,-765.44 581,-759.44 "/>
 <polyline fill="none" stroke="black" points="587,-759.44 581,-759.44 "/>
 <text text-anchor="middle" x="299.5" y="-750.24" font-family="Times,serif" font-size="14.00">!&gt; brief Redistribute mass from cells below or above the density cut&#45;off limits</text>
 <text text-anchor="middle" x="299.5" y="-735.24" font-family="Times,serif" font-size="14.00">!&gt; details Do not apply OpenMP to this routine</text>
 </g>
-<!-- start_SUBPROGRAM_9d157a0&#45;&gt;COMMENT_978a580+1 -->
+<!-- start_SUBPROGRAM_8548c00&#45;&gt;COMMENT_833dd00+1 -->
 <g id="edge1" class="edge">
-<title>start_SUBPROGRAM_9d157a0&#45;&gt;COMMENT_978a580+1</title>
+<title>start_SUBPROGRAM_8548c00&#45;&gt;COMMENT_833dd00+1</title>
 <path fill="none" stroke="black" d="M299.5,-801.02C299.5,-794.85 299.5,-785.08 299.5,-775.56"/>
 <polygon fill="black" stroke="black" points="303,-775.52 299.5,-765.52 296,-775.52 303,-775.52"/>
 </g>
-<!-- COMMENT_978fba0+1 -->
+<!-- COMMENT_8341760+1 -->
 <g id="node3" class="node">
-<title>COMMENT_978fba0+1</title>
+<title>COMMENT_8341760+1</title>
 <polygon fill="none" stroke="black" points="395,-691.44 198,-691.44 198,-653.44 401,-653.44 401,-685.44 395,-691.44"/>
 <polyline fill="none" stroke="black" points="395,-691.44 395,-685.44 "/>
 <polyline fill="none" stroke="black" points="401,-685.44 395,-685.44 "/>
 <text text-anchor="middle" x="299.5" y="-676.24" font-family="Times,serif" font-size="14.00">CLIP_RHOMIN = .FALSE.</text>
 <text text-anchor="middle" x="299.5" y="-661.24" font-family="Times,serif" font-size="14.00">CLIP_RHOMAX = .FALSE.</text>
 </g>
-<!-- COMMENT_978a580+1&#45;&gt;COMMENT_978fba0+1 -->
+<!-- COMMENT_833dd00+1&#45;&gt;COMMENT_8341760+1 -->
 <g id="edge2" class="edge">
-<title>COMMENT_978a580+1&#45;&gt;COMMENT_978fba0+1</title>
+<title>COMMENT_833dd00+1&#45;&gt;COMMENT_8341760+1</title>
 <path fill="none" stroke="black" d="M299.5,-727.27C299.5,-719.57 299.5,-710.41 299.5,-701.86"/>
 <polygon fill="black" stroke="black" points="303,-701.85 299.5,-691.85 296,-701.85 303,-701.85"/>
 </g>
-<!-- COMMENT_9792500+1 -->
+<!-- COMMENT_8345c20+1 -->
 <g id="node4" class="node">
-<title>COMMENT_9792500+1</title>
+<title>COMMENT_8345c20+1</title>
 <polygon fill="none" stroke="black" points="357.5,-617.44 235.5,-617.44 235.5,-581.44 363.5,-581.44 363.5,-611.44 357.5,-617.44"/>
 <polyline fill="none" stroke="black" points="357.5,-617.44 357.5,-611.44 "/>
 <polyline fill="none" stroke="black" points="363.5,-611.44 357.5,-611.44 "/>
 <text text-anchor="middle" x="299.5" y="-595.74" font-family="Times,serif" font-size="14.00">Correct density</text>
 </g>
-<!-- COMMENT_978fba0+1&#45;&gt;COMMENT_9792500+1 -->
+<!-- COMMENT_8341760+1&#45;&gt;COMMENT_8345c20+1 -->
 <g id="edge3" class="edge">
-<title>COMMENT_978fba0+1&#45;&gt;COMMENT_9792500+1</title>
+<title>COMMENT_8341760+1&#45;&gt;COMMENT_8345c20+1</title>
 <path fill="none" stroke="black" d="M299.5,-653.16C299.5,-645.41 299.5,-636.23 299.5,-627.71"/>
 <polygon fill="black" stroke="black" points="303,-627.44 299.5,-617.44 296,-627.44 303,-627.44"/>
 </g>
-<!-- COMMENT_9b025c0+1 -->
+<!-- COMMENT_83b5ca0+1 -->
 <g id="node5" class="node">
-<title>COMMENT_9b025c0+1</title>
+<title>COMMENT_83b5ca0+1</title>
 <polygon fill="none" stroke="black" points="563,-545.44 30,-545.44 30,-509.44 569,-509.44 569,-539.44 563,-545.44"/>
 <polyline fill="none" stroke="black" points="563,-545.44 563,-539.44 "/>
 <polyline fill="none" stroke="black" points="569,-539.44 563,-539.44 "/>
 <text text-anchor="middle" x="299.5" y="-523.74" font-family="Times,serif" font-size="14.00">Assign excess/deficit mass to neighboring cells if clipping has been done.</text>
 </g>
-<!-- COMMENT_9792500+1&#45;&gt;COMMENT_9b025c0+1 -->
+<!-- COMMENT_8345c20+1&#45;&gt;COMMENT_83b5ca0+1 -->
 <g id="edge4" class="edge">
-<title>COMMENT_9792500+1&#45;&gt;COMMENT_9b025c0+1</title>
+<title>COMMENT_8345c20+1&#45;&gt;COMMENT_83b5ca0+1</title>
 <path fill="none" stroke="black" d="M299.5,-581.14C299.5,-573.42 299.5,-564.15 299.5,-555.55"/>
 <polygon fill="black" stroke="black" points="303,-555.54 299.5,-545.54 296,-555.54 303,-555.54"/>
 </g>
-<!-- COMMENT_9b02500+1 -->
+<!-- COMMENT_83b2500+1 -->
 <g id="node6" class="node">
-<title>COMMENT_9b02500+1</title>
+<title>COMMENT_83b2500+1</title>
 <polygon fill="none" stroke="black" points="510.5,-473.44 82.5,-473.44 82.5,-437.44 516.5,-437.44 516.5,-467.44 510.5,-473.44"/>
 <polyline fill="none" stroke="black" points="510.5,-473.44 510.5,-467.44 "/>
 <polyline fill="none" stroke="black" points="516.5,-467.44 510.5,-467.44 "/>
 <text text-anchor="middle" x="299.5" y="-451.74" font-family="Times,serif" font-size="14.00">If there is only one gas species, set rho*Z=rho and return.</text>
 </g>
-<!-- COMMENT_9b025c0+1&#45;&gt;COMMENT_9b02500+1 -->
+<!-- COMMENT_83b5ca0+1&#45;&gt;COMMENT_83b2500+1 -->
 <g id="edge5" class="edge">
-<title>COMMENT_9b025c0+1&#45;&gt;COMMENT_9b02500+1</title>
+<title>COMMENT_83b5ca0+1&#45;&gt;COMMENT_83b2500+1</title>
 <path fill="none" stroke="black" d="M299.5,-509.14C299.5,-501.42 299.5,-492.15 299.5,-483.55"/>
 <polygon fill="black" stroke="black" points="303,-483.54 299.5,-473.54 296,-483.54 303,-483.54"/>
 </g>
-<!-- COMMENT_9b05c60+1 -->
+<!-- COMMENT_83b2340+1 -->
 <g id="node7" class="node">
-<title>COMMENT_9b05c60+1</title>
+<title>COMMENT_83b2340+1</title>
 <polygon fill="none" stroke="black" points="406.5,-401.44 186.5,-401.44 186.5,-365.44 412.5,-365.44 412.5,-395.44 406.5,-401.44"/>
 <polyline fill="none" stroke="black" points="406.5,-401.44 406.5,-395.44 "/>
 <polyline fill="none" stroke="black" points="412.5,-395.44 406.5,-395.44 "/>
 <text text-anchor="middle" x="299.5" y="-379.74" font-family="Times,serif" font-size="14.00">Correct species mass density</text>
 </g>
-<!-- COMMENT_9b02500+1&#45;&gt;COMMENT_9b05c60+1 -->
+<!-- COMMENT_83b2500+1&#45;&gt;COMMENT_83b2340+1 -->
 <g id="edge6" class="edge">
-<title>COMMENT_9b02500+1&#45;&gt;COMMENT_9b05c60+1</title>
+<title>COMMENT_83b2500+1&#45;&gt;COMMENT_83b2340+1</title>
 <path fill="none" stroke="black" d="M299.5,-437.14C299.5,-429.42 299.5,-420.15 299.5,-411.55"/>
 <polygon fill="black" stroke="black" points="303,-411.54 299.5,-401.54 296,-411.54 303,-411.54"/>
 </g>
-<!-- beginDO_DO_9d01ea0 -->
+<!-- beginDO_DO_852a400 -->
 <g id="node8" class="node">
-<title>beginDO_DO_9d01ea0</title>
+<title>beginDO_DO_852a400</title>
 <ellipse fill="black" stroke="black" cx="299.5" cy="-326.08" rx="0.36" ry="0.36"/>
 </g>
-<!-- COMMENT_9b05c60+1&#45;&gt;beginDO_DO_9d01ea0 -->
+<!-- COMMENT_83b2340+1&#45;&gt;beginDO_DO_852a400 -->
 <g id="edge8" class="edge">
-<title>COMMENT_9b05c60+1&#45;&gt;beginDO_DO_9d01ea0</title>
+<title>COMMENT_83b2340+1&#45;&gt;beginDO_DO_852a400</title>
 <path fill="none" stroke="black" d="M299.5,-365.23C299.5,-349.48 299.5,-328.44 299.5,-327.14"/>
 </g>
-<!-- COMMENT_9b77760+1 -->
+<!-- COMMENT_852a940+1 -->
 <g id="node10" class="node">
-<title>COMMENT_9b77760+1</title>
+<title>COMMENT_852a940+1</title>
 <polygon fill="none" stroke="black" points="471.5,-289.72 121.5,-289.72 121.5,-253.72 477.5,-253.72 477.5,-283.72 471.5,-289.72"/>
 <polyline fill="none" stroke="black" points="471.5,-289.72 471.5,-283.72 "/>
 <polyline fill="none" stroke="black" points="477.5,-283.72 471.5,-283.72 "/>
 <text text-anchor="middle" x="299.5" y="-268.02" font-family="Times,serif" font-size="14.00">Assign excess/deficit RHO_ZZ neighboring cells</text>
 </g>
-<!-- beginDO_DO_9d01ea0&#45;&gt;COMMENT_9b77760+1 -->
+<!-- beginDO_DO_852a400&#45;&gt;COMMENT_852a940+1 -->
 <g id="edge7" class="edge">
-<title>beginDO_DO_9d01ea0&#45;&gt;COMMENT_9b77760+1</title>
+<title>beginDO_DO_852a400&#45;&gt;COMMENT_852a940+1</title>
 <path fill="none" stroke="black" d="M299.5,-325.57C299.5,-324.09 299.5,-312.04 299.5,-299.82"/>
 <polygon fill="black" stroke="black" points="303,-299.74 299.5,-289.74 296,-299.74 303,-299.74"/>
 </g>
-<!-- endDO_DO_9d01ea0 -->
+<!-- endDO_DO_852a400 -->
 <g id="node9" class="node">
-<title>endDO_DO_9d01ea0</title>
+<title>endDO_DO_852a400</title>
 <ellipse fill="black" stroke="black" cx="299.5" cy="-217.36" rx="0.36" ry="0.36"/>
 </g>
-<!-- COMMENT_9b79120+1 -->
+<!-- COMMENT_83b9a60+1 -->
 <g id="node11" class="node">
-<title>COMMENT_9b79120+1</title>
+<title>COMMENT_83b9a60+1</title>
 <polygon fill="none" stroke="black" points="426.5,-181 166.5,-181 166.5,-145 432.5,-145 432.5,-175 426.5,-181"/>
 <polyline fill="none" stroke="black" points="426.5,-181 426.5,-175 "/>
 <polyline fill="none" stroke="black" points="432.5,-175 426.5,-175 "/>
 <text text-anchor="middle" x="299.5" y="-159.3" font-family="Times,serif" font-size="14.00">If nothing has been clipped, return</text>
 </g>
-<!-- endDO_DO_9d01ea0&#45;&gt;COMMENT_9b79120+1 -->
+<!-- endDO_DO_852a400&#45;&gt;COMMENT_83b9a60+1 -->
 <g id="edge10" class="edge">
-<title>endDO_DO_9d01ea0&#45;&gt;COMMENT_9b79120+1</title>
+<title>endDO_DO_852a400&#45;&gt;COMMENT_83b9a60+1</title>
 <path fill="none" stroke="black" d="M299.5,-216.21C299.5,-214.77 299.5,-203.23 299.5,-191.36"/>
 <polygon fill="black" stroke="black" points="303,-191.1 299.5,-181.1 296,-191.1 303,-191.1"/>
 </g>
-<!-- COMMENT_9b77760+1&#45;&gt;endDO_DO_9d01ea0 -->
+<!-- COMMENT_852a940+1&#45;&gt;endDO_DO_852a400 -->
 <g id="edge9" class="edge">
-<title>COMMENT_9b77760+1&#45;&gt;endDO_DO_9d01ea0</title>
+<title>COMMENT_852a940+1&#45;&gt;endDO_DO_852a400</title>
 <path fill="none" stroke="black" d="M299.5,-253.66C299.5,-238.65 299.5,-218.99 299.5,-217.78"/>
 </g>
-<!-- COMMENT_9d02f00+1 -->
+<!-- COMMENT_8535f60+1 -->
 <g id="node12" class="node">
-<title>COMMENT_9d02f00+1</title>
+<title>COMMENT_8535f60+1</title>
 <polygon fill="none" stroke="black" points="593,-109 0,-109 0,-73 599,-73 599,-103 593,-109"/>
 <polyline fill="none" stroke="black" points="593,-109 593,-103 "/>
 <polyline fill="none" stroke="black" points="599,-103 593,-103 "/>
 <text text-anchor="middle" x="299.5" y="-87.3" font-family="Times,serif" font-size="14.00">Final check of RHO_ZZ to ensure that ZZ(:,:,:,1:N_TRACKED_SPECIES) sums to 1</text>
 </g>
-<!-- COMMENT_9b79120+1&#45;&gt;COMMENT_9d02f00+1 -->
+<!-- COMMENT_83b9a60+1&#45;&gt;COMMENT_8535f60+1 -->
 <g id="edge11" class="edge">
-<title>COMMENT_9b79120+1&#45;&gt;COMMENT_9d02f00+1</title>
+<title>COMMENT_83b9a60+1&#45;&gt;COMMENT_8535f60+1</title>
 <path fill="none" stroke="black" d="M299.5,-144.7C299.5,-136.98 299.5,-127.71 299.5,-119.11"/>
 <polygon fill="black" stroke="black" points="303,-119.1 299.5,-109.1 296,-119.1 303,-119.1"/>
 </g>
-<!-- end_SUBPROGRAM_9d157a0 -->
+<!-- end_SUBPROGRAM_8548c00 -->
 <g id="node13" class="node">
-<title>end_SUBPROGRAM_9d157a0</title>
+<title>end_SUBPROGRAM_8548c00</title>
 <ellipse fill="black" stroke="black" cx="299.5" cy="-30" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_9d02f00+1&#45;&gt;end_SUBPROGRAM_9d157a0 -->
+<!-- COMMENT_8535f60+1&#45;&gt;end_SUBPROGRAM_8548c00 -->
 <g id="edge12" class="edge">
-<title>COMMENT_9d02f00+1&#45;&gt;end_SUBPROGRAM_9d157a0</title>
+<title>COMMENT_8535f60+1&#45;&gt;end_SUBPROGRAM_8548c00</title>
 <path fill="none" stroke="black" d="M299.5,-72.93C299.5,-64.89 299.5,-55.33 299.5,-47.37"/>
 <polygon fill="black" stroke="black" points="303,-47.22 299.5,-37.22 296,-47.22 303,-47.22"/>
 </g>

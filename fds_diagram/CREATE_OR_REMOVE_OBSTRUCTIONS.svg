@@ -10,14 +10,14 @@
 <title>CREATE_OR_REMOVE_OBSTRUCTIONS</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-468 913,-468 913,4 -4,4"/>
 <text text-anchor="middle" x="454.5" y="-7.8" font-family="Times,serif" font-size="14.00">CREATE_OR_REMOVE_OBSTRUCTIONS</text>
-<!-- start_SUBPROGRAM_8d84300 -->
+<!-- start_SUBPROGRAM_9f952c0 -->
 <g id="node1" class="node">
-<title>start_SUBPROGRAM_8d84300</title>
+<title>start_SUBPROGRAM_9f952c0</title>
 <ellipse fill="none" stroke="black" cx="454.5" cy="-457" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_8d7f340+1 -->
+<!-- COMMENT_9f8e240+1 -->
 <g id="node2" class="node">
-<title>COMMENT_8d7f340+1</title>
+<title>COMMENT_9f8e240+1</title>
 <polygon fill="none" stroke="black" points="903,-414 0,-414 0,-361 909,-361 909,-408 903,-414"/>
 <polyline fill="none" stroke="black" points="903,-414 903,-408 "/>
 <polyline fill="none" stroke="black" points="909,-408 903,-408 "/>
@@ -25,15 +25,15 @@
 <text text-anchor="middle" x="454.5" y="-383.8" font-family="Times,serif" font-size="14.00">!&gt; details Check if any obstructions are to be created or removed, and if so, call REASSIGN_WALL_CELLS to reset the WALL</text>
 <text text-anchor="middle" x="454.5" y="-368.8" font-family="Times,serif" font-size="14.00">!&gt; boundary conditions where obstructions have been removed or created</text>
 </g>
-<!-- start_SUBPROGRAM_8d84300&#45;&gt;COMMENT_8d7f340+1 -->
+<!-- start_SUBPROGRAM_9f952c0&#45;&gt;COMMENT_9f8e240+1 -->
 <g id="edge1" class="edge">
-<title>start_SUBPROGRAM_8d84300&#45;&gt;COMMENT_8d7f340+1</title>
+<title>start_SUBPROGRAM_9f952c0&#45;&gt;COMMENT_9f8e240+1</title>
 <path fill="none" stroke="black" d="M454.5,-449.77C454.5,-443.76 454.5,-434.16 454.5,-424.32"/>
 <polygon fill="black" stroke="black" points="458,-424.12 454.5,-414.12 451,-424.12 458,-424.12"/>
 </g>
-<!-- CALL_8d806a0 -->
+<!-- CALL_9f8f480 -->
 <g id="node3" class="node">
-<title>CALL_8d806a0</title>
+<title>CALL_9f8f480</title>
 <g id="a_node3"><a xlink:href="OPEN_AND_CLOSE.svg" xlink:title="OPEN_AND_CLOSE">
 <polygon fill="lightgray" stroke="black" points="533.5,-325 375.5,-325 375.5,-321 371.5,-321 371.5,-317 375.5,-317 375.5,-297 371.5,-297 371.5,-293 375.5,-293 375.5,-289 533.5,-289 533.5,-325"/>
 <polyline fill="none" stroke="black" points="375.5,-321 379.5,-321 379.5,-317 375.5,-317 "/>
@@ -42,15 +42,15 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_8d7f340+1&#45;&gt;CALL_8d806a0 -->
+<!-- COMMENT_9f8e240+1&#45;&gt;CALL_9f8f480 -->
 <g id="edge2" class="edge">
-<title>COMMENT_8d7f340+1&#45;&gt;CALL_8d806a0</title>
+<title>COMMENT_9f8e240+1&#45;&gt;CALL_9f8f480</title>
 <path fill="none" stroke="black" d="M454.5,-360.8C454.5,-352.71 454.5,-343.76 454.5,-335.55"/>
 <polygon fill="black" stroke="black" points="458,-335.33 454.5,-325.33 451,-335.33 458,-335.33"/>
 </g>
-<!-- CALL_8d828c0 -->
+<!-- CALL_9f93740 -->
 <g id="node4" class="node">
-<title>CALL_8d828c0</title>
+<title>CALL_9f93740</title>
 <g id="a_node4"><a xlink:href="MPI_ALLREDUCE.svg" xlink:title="MPI_ALLREDUCE">
 <polygon fill="#ffe800" stroke="black" points="527.5,-253 381.5,-253 381.5,-249 377.5,-249 377.5,-245 381.5,-245 381.5,-225 377.5,-225 377.5,-221 381.5,-221 381.5,-217 527.5,-217 527.5,-253"/>
 <polyline fill="none" stroke="black" points="381.5,-249 385.5,-249 385.5,-245 381.5,-245 "/>
@@ -59,15 +59,15 @@
 </a>
 </g>
 </g>
-<!-- CALL_8d806a0&#45;&gt;CALL_8d828c0 -->
+<!-- CALL_9f8f480&#45;&gt;CALL_9f93740 -->
 <g id="edge3" class="edge">
-<title>CALL_8d806a0&#45;&gt;CALL_8d828c0</title>
+<title>CALL_9f8f480&#45;&gt;CALL_9f93740</title>
 <path fill="none" stroke="black" d="M454.5,-288.7C454.5,-280.98 454.5,-271.71 454.5,-263.11"/>
 <polygon fill="black" stroke="black" points="458,-263.1 454.5,-253.1 451,-263.1 458,-263.1"/>
 </g>
-<!-- CALL_8d7c7a0 -->
+<!-- CALL_9f8b5c0 -->
 <g id="node5" class="node">
-<title>CALL_8d7c7a0</title>
+<title>CALL_9f8b5c0</title>
 <g id="a_node5"><a xlink:href="EXCHANGE_GEOMETRY_INFO.svg" xlink:title="EXCHANGE_GEOMETRY_INFO">
 <polygon fill="lightgray" stroke="black" points="574.5,-181 334.5,-181 334.5,-177 330.5,-177 330.5,-173 334.5,-173 334.5,-153 330.5,-153 330.5,-149 334.5,-149 334.5,-145 574.5,-145 574.5,-181"/>
 <polyline fill="none" stroke="black" points="334.5,-177 338.5,-177 338.5,-173 334.5,-173 "/>
@@ -76,15 +76,15 @@
 </a>
 </g>
 </g>
-<!-- CALL_8d828c0&#45;&gt;CALL_8d7c7a0 -->
+<!-- CALL_9f93740&#45;&gt;CALL_9f8b5c0 -->
 <g id="edge4" class="edge">
-<title>CALL_8d828c0&#45;&gt;CALL_8d7c7a0</title>
+<title>CALL_9f93740&#45;&gt;CALL_9f8b5c0</title>
 <path fill="none" stroke="black" d="M454.5,-216.7C454.5,-208.98 454.5,-199.71 454.5,-191.11"/>
 <polygon fill="black" stroke="black" points="458,-191.1 454.5,-181.1 451,-191.1 458,-191.1"/>
 </g>
-<!-- CALL_8d83d80 -->
+<!-- CALL_9f94cc0 -->
 <g id="node6" class="node">
-<title>CALL_8d83d80</title>
+<title>CALL_9f94cc0</title>
 <g id="a_node6"><a xlink:href="REASSIGN_WALL_CELLS.svg" xlink:title="REASSIGN_WALL_CELLS">
 <polygon fill="lightgray" stroke="black" points="553.5,-109 355.5,-109 355.5,-105 351.5,-105 351.5,-101 355.5,-101 355.5,-81 351.5,-81 351.5,-77 355.5,-77 355.5,-73 553.5,-73 553.5,-109"/>
 <polyline fill="none" stroke="black" points="355.5,-105 359.5,-105 359.5,-101 355.5,-101 "/>
@@ -93,20 +93,20 @@
 </a>
 </g>
 </g>
-<!-- CALL_8d7c7a0&#45;&gt;CALL_8d83d80 -->
+<!-- CALL_9f8b5c0&#45;&gt;CALL_9f94cc0 -->
 <g id="edge5" class="edge">
-<title>CALL_8d7c7a0&#45;&gt;CALL_8d83d80</title>
+<title>CALL_9f8b5c0&#45;&gt;CALL_9f94cc0</title>
 <path fill="none" stroke="black" d="M454.5,-144.7C454.5,-136.98 454.5,-127.71 454.5,-119.11"/>
 <polygon fill="black" stroke="black" points="458,-119.1 454.5,-109.1 451,-119.1 458,-119.1"/>
 </g>
-<!-- end_SUBPROGRAM_8d84300 -->
+<!-- end_SUBPROGRAM_9f952c0 -->
 <g id="node7" class="node">
-<title>end_SUBPROGRAM_8d84300</title>
+<title>end_SUBPROGRAM_9f952c0</title>
 <ellipse fill="black" stroke="black" cx="454.5" cy="-30" rx="7" ry="7"/>
 </g>
-<!-- CALL_8d83d80&#45;&gt;end_SUBPROGRAM_8d84300 -->
+<!-- CALL_9f94cc0&#45;&gt;end_SUBPROGRAM_9f952c0 -->
 <g id="edge6" class="edge">
-<title>CALL_8d83d80&#45;&gt;end_SUBPROGRAM_8d84300</title>
+<title>CALL_9f94cc0&#45;&gt;end_SUBPROGRAM_9f952c0</title>
 <path fill="none" stroke="black" d="M454.5,-72.93C454.5,-64.89 454.5,-55.33 454.5,-47.37"/>
 <polygon fill="black" stroke="black" points="458,-47.22 454.5,-37.22 451,-47.22 458,-47.22"/>
 </g>

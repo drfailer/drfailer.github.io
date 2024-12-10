@@ -15,14 +15,14 @@
 <polygon fill="none" stroke="orange" points="69.5,-643 69.5,-1657.44 931.5,-1657.44 931.5,-643 69.5,-643"/>
 <text text-anchor="middle" x="168" y="-1642.24" font-family="Times,serif" font-size="14.00">FIND_BACK_WALL_CELL</text>
 </g>
-<!-- start_SUBPROGRAM_8b48400 -->
+<!-- start_SUBPROGRAM_8b17e60 -->
 <g id="node1" class="node">
-<title>start_SUBPROGRAM_8b48400</title>
+<title>start_SUBPROGRAM_8b17e60</title>
 <ellipse fill="none" stroke="black" cx="500.5" cy="-1776.44" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_89af680+1 -->
+<!-- COMMENT_89af540+1 -->
 <g id="node2" class="node">
-<title>COMMENT_89af680+1</title>
+<title>COMMENT_89af540+1</title>
 <polygon fill="none" stroke="black" points="929,-1733.44 66,-1733.44 66,-1665.44 935,-1665.44 935,-1727.44 929,-1733.44"/>
 <polyline fill="none" stroke="black" points="929,-1733.44 929,-1727.44 "/>
 <polyline fill="none" stroke="black" points="935,-1727.44 929,-1727.44 "/>
@@ -31,25 +31,25 @@
 <text text-anchor="middle" x="500.5" y="-1688.24" font-family="Times,serif" font-size="14.00">!&gt; param IW Wall cell index</text>
 <text text-anchor="middle" x="500.5" y="-1673.24" font-family="Times,serif" font-size="14.00">!&gt; details If the exposed back wall cell is in another mesh, store the cell info into arrays that are to be MPI exchanged.</text>
 </g>
-<!-- start_SUBPROGRAM_8b48400&#45;&gt;COMMENT_89af680+1 -->
+<!-- start_SUBPROGRAM_8b17e60&#45;&gt;COMMENT_89af540+1 -->
 <g id="edge1" class="edge">
-<title>start_SUBPROGRAM_8b48400&#45;&gt;COMMENT_89af680+1</title>
+<title>start_SUBPROGRAM_8b17e60&#45;&gt;COMMENT_89af540+1</title>
 <path fill="none" stroke="black" d="M500.5,-1769.3C500.5,-1763.37 500.5,-1753.82 500.5,-1743.7"/>
 <polygon fill="black" stroke="black" points="504,-1743.49 500.5,-1733.49 497,-1743.49 504,-1743.49"/>
 </g>
-<!-- beginDO_DO_8b46580 -->
+<!-- beginDO_DO_8b46040 -->
 <g id="node3" class="node">
-<title>beginDO_DO_8b46580</title>
+<title>beginDO_DO_8b46040</title>
 <ellipse fill="black" stroke="black" cx="500.5" cy="-1626.08" rx="0.36" ry="0.36"/>
 </g>
-<!-- COMMENT_89af680+1&#45;&gt;beginDO_DO_8b46580 -->
+<!-- COMMENT_89af540+1&#45;&gt;beginDO_DO_8b46040 -->
 <g id="edge15" class="edge">
-<title>COMMENT_89af680+1&#45;&gt;beginDO_DO_8b46580</title>
+<title>COMMENT_89af540+1&#45;&gt;beginDO_DO_8b46040</title>
 <path fill="none" stroke="black" d="M500.5,-1665.27C500.5,-1647.21 500.5,-1628.3 500.5,-1627.14"/>
 </g>
-<!-- CALL_89ddac0 -->
+<!-- CALL_89dcba0 -->
 <g id="node5" class="node">
-<title>CALL_89ddac0</title>
+<title>CALL_89dcba0</title>
 <g id="a_node5"><a xlink:href="SEARCH_OTHER_MESHES.svg" xlink:title="SEARCH_OTHER_MESHES">
 <polygon fill="lightgray" stroke="black" points="607,-1589.72 394,-1589.72 394,-1585.72 390,-1585.72 390,-1581.72 394,-1581.72 394,-1561.72 390,-1561.72 390,-1557.72 394,-1557.72 394,-1553.72 607,-1553.72 607,-1589.72"/>
 <polyline fill="none" stroke="black" points="394,-1585.72 398,-1585.72 398,-1581.72 394,-1581.72 "/>
@@ -58,49 +58,49 @@
 </a>
 </g>
 </g>
-<!-- beginDO_DO_8b46580&#45;&gt;CALL_89ddac0 -->
+<!-- beginDO_DO_8b46040&#45;&gt;CALL_89dcba0 -->
 <g id="edge2" class="edge">
-<title>beginDO_DO_8b46580&#45;&gt;CALL_89ddac0</title>
+<title>beginDO_DO_8b46040&#45;&gt;CALL_89dcba0</title>
 <path fill="none" stroke="black" d="M500.5,-1625.57C500.5,-1624.09 500.5,-1612.04 500.5,-1599.82"/>
 <polygon fill="black" stroke="black" points="504,-1599.74 500.5,-1589.74 497,-1599.74 504,-1599.74"/>
 </g>
-<!-- endDO_DO_8b46580 -->
+<!-- endDO_DO_8b46040 -->
 <g id="node4" class="node">
-<title>endDO_DO_8b46580</title>
+<title>endDO_DO_8b46040</title>
 <ellipse fill="black" stroke="black" cx="500.5" cy="-651.36" rx="0.36" ry="0.36"/>
 </g>
-<!-- COMMENT_8b47ea0+1 -->
+<!-- COMMENT_8b47aa0+1 -->
 <g id="node18" class="node">
-<title>COMMENT_8b47ea0+1</title>
+<title>COMMENT_8b47aa0+1</title>
 <polygon fill="none" stroke="black" points="995,-615 0,-615 0,-577 1001,-577 1001,-609 995,-615"/>
 <polyline fill="none" stroke="black" points="995,-615 995,-609 "/>
 <polyline fill="none" stroke="black" points="1001,-609 995,-609 "/>
 <text text-anchor="middle" x="500.5" y="-599.8" font-family="Times,serif" font-size="14.00">If the user has specified LINING materials (HT3D or VARIABLE_THICKNESS with SURF MATLs and THICKNESS), add this information to</text>
 <text text-anchor="middle" x="500.5" y="-584.8" font-family="Times,serif" font-size="14.00">existing lists of layers and materials.</text>
 </g>
-<!-- endDO_DO_8b46580&#45;&gt;COMMENT_8b47ea0+1 -->
+<!-- endDO_DO_8b46040&#45;&gt;COMMENT_8b47aa0+1 -->
 <g id="edge17" class="edge">
-<title>endDO_DO_8b46580&#45;&gt;COMMENT_8b47ea0+1</title>
+<title>endDO_DO_8b46040&#45;&gt;COMMENT_8b47aa0+1</title>
 <path fill="none" stroke="black" d="M500.5,-650.21C500.5,-648.76 500.5,-637.28 500.5,-625.36"/>
 <polygon fill="black" stroke="black" points="504,-625 500.5,-615 497,-625 504,-625"/>
 </g>
-<!-- COMMENT_89e1700+1 -->
+<!-- COMMENT_89ded60+1 -->
 <g id="node6" class="node">
-<title>COMMENT_89e1700+1</title>
+<title>COMMENT_89ded60+1</title>
 <polygon fill="none" stroke="black" points="734,-1517.72 261,-1517.72 261,-1481.72 740,-1481.72 740,-1511.72 734,-1517.72"/>
 <polyline fill="none" stroke="black" points="734,-1517.72 734,-1511.72 "/>
 <polyline fill="none" stroke="black" points="740,-1511.72 734,-1511.72 "/>
 <text text-anchor="middle" x="500.5" y="-1496.02" font-family="Times,serif" font-size="14.00">Do not apply HT3D to VARIABLE_THICKNESS exterior boundary</text>
 </g>
-<!-- CALL_89ddac0&#45;&gt;COMMENT_89e1700+1 -->
+<!-- CALL_89dcba0&#45;&gt;COMMENT_89ded60+1 -->
 <g id="edge3" class="edge">
-<title>CALL_89ddac0&#45;&gt;COMMENT_89e1700+1</title>
+<title>CALL_89dcba0&#45;&gt;COMMENT_89ded60+1</title>
 <path fill="none" stroke="black" d="M500.5,-1553.42C500.5,-1545.7 500.5,-1536.43 500.5,-1527.83"/>
 <polygon fill="black" stroke="black" points="504,-1527.82 500.5,-1517.82 497,-1527.82 504,-1527.82"/>
 </g>
-<!-- CALL_89e38e0 -->
+<!-- CALL_89e2760 -->
 <g id="node7" class="node">
-<title>CALL_89e38e0</title>
+<title>CALL_89e2760</title>
 <g id="a_node7"><a xlink:href="SHUTDOWN.svg" xlink:title="SHUTDOWN">
 <polygon fill="lightgray" stroke="black" points="554.5,-1445.72 446.5,-1445.72 446.5,-1441.72 442.5,-1441.72 442.5,-1437.72 446.5,-1437.72 446.5,-1417.72 442.5,-1417.72 442.5,-1413.72 446.5,-1413.72 446.5,-1409.72 554.5,-1409.72 554.5,-1445.72"/>
 <polyline fill="none" stroke="black" points="446.5,-1441.72 450.5,-1441.72 450.5,-1437.72 446.5,-1437.72 "/>
@@ -109,44 +109,44 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_89e1700+1&#45;&gt;CALL_89e38e0 -->
+<!-- COMMENT_89ded60+1&#45;&gt;CALL_89e2760 -->
 <g id="edge4" class="edge">
-<title>COMMENT_89e1700+1&#45;&gt;CALL_89e38e0</title>
+<title>COMMENT_89ded60+1&#45;&gt;CALL_89e2760</title>
 <path fill="none" stroke="black" d="M500.5,-1481.42C500.5,-1473.7 500.5,-1464.43 500.5,-1455.83"/>
 <polygon fill="black" stroke="black" points="504,-1455.82 500.5,-1445.82 497,-1455.82 504,-1455.82"/>
 </g>
-<!-- COMMENT_89f0ea0+1 -->
+<!-- COMMENT_89d7240+1 -->
 <g id="node8" class="node">
-<title>COMMENT_89f0ea0+1</title>
+<title>COMMENT_89d7240+1</title>
 <polygon fill="none" stroke="black" points="816.5,-1373.72 178.5,-1373.72 178.5,-1337.72 822.5,-1337.72 822.5,-1367.72 816.5,-1373.72"/>
 <polyline fill="none" stroke="black" points="816.5,-1373.72 816.5,-1367.72 "/>
 <polyline fill="none" stroke="black" points="822.5,-1367.72 816.5,-1367.72 "/>
 <text text-anchor="middle" x="500.5" y="-1352.02" font-family="Times,serif" font-size="14.00">For VARIABLE_THICKNESS and HT3D cases, get material information from obstruction</text>
 </g>
-<!-- CALL_89e38e0&#45;&gt;COMMENT_89f0ea0+1 -->
+<!-- CALL_89e2760&#45;&gt;COMMENT_89d7240+1 -->
 <g id="edge5" class="edge">
-<title>CALL_89e38e0&#45;&gt;COMMENT_89f0ea0+1</title>
+<title>CALL_89e2760&#45;&gt;COMMENT_89d7240+1</title>
 <path fill="none" stroke="black" d="M500.5,-1409.42C500.5,-1401.7 500.5,-1392.43 500.5,-1383.83"/>
 <polygon fill="black" stroke="black" points="504,-1383.82 500.5,-1373.82 497,-1383.82 504,-1383.82"/>
 </g>
-<!-- COMMENT_89e2ce0+1 -->
+<!-- COMMENT_89e1f40+1 -->
 <g id="node9" class="node">
-<title>COMMENT_89e2ce0+1</title>
+<title>COMMENT_89e1f40+1</title>
 <polygon fill="none" stroke="black" points="896,-1301.72 99,-1301.72 99,-1263.72 902,-1263.72 902,-1295.72 896,-1301.72"/>
 <polyline fill="none" stroke="black" points="896,-1301.72 896,-1295.72 "/>
 <polyline fill="none" stroke="black" points="902,-1295.72 896,-1295.72 "/>
 <text text-anchor="middle" x="500.5" y="-1286.52" font-family="Times,serif" font-size="14.00">Determine the index of the obstruction (OBST_INDEX) that occupies the cell with index IC.</text>
 <text text-anchor="middle" x="500.5" y="-1271.52" font-family="Times,serif" font-size="14.00">If the obstruction is thin, search all obstructions in the mesh for one that corresponds to the upwind cell face.</text>
 </g>
-<!-- COMMENT_89f0ea0+1&#45;&gt;COMMENT_89e2ce0+1 -->
+<!-- COMMENT_89d7240+1&#45;&gt;COMMENT_89e1f40+1 -->
 <g id="edge6" class="edge">
-<title>COMMENT_89f0ea0+1&#45;&gt;COMMENT_89e2ce0+1</title>
+<title>COMMENT_89d7240+1&#45;&gt;COMMENT_89e1f40+1</title>
 <path fill="none" stroke="black" d="M500.5,-1337.53C500.5,-1329.83 500.5,-1320.54 500.5,-1311.87"/>
 <polygon fill="black" stroke="black" points="504,-1311.74 500.5,-1301.74 497,-1311.74 504,-1311.74"/>
 </g>
-<!-- CALL_8b022e0 -->
+<!-- CALL_8b01900 -->
 <g id="node10" class="node">
-<title>CALL_8b022e0</title>
+<title>CALL_8b01900</title>
 <g id="a_node10"><a xlink:href="SHUTDOWN.svg" xlink:title="SHUTDOWN">
 <polygon fill="lightgray" stroke="black" points="554.5,-1227.72 446.5,-1227.72 446.5,-1223.72 442.5,-1223.72 442.5,-1219.72 446.5,-1219.72 446.5,-1199.72 442.5,-1199.72 442.5,-1195.72 446.5,-1195.72 446.5,-1191.72 554.5,-1191.72 554.5,-1227.72"/>
 <polyline fill="none" stroke="black" points="446.5,-1223.72 450.5,-1223.72 450.5,-1219.72 446.5,-1219.72 "/>
@@ -155,29 +155,29 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_89e2ce0+1&#45;&gt;CALL_8b022e0 -->
+<!-- COMMENT_89e1f40+1&#45;&gt;CALL_8b01900 -->
 <g id="edge7" class="edge">
-<title>COMMENT_89e2ce0+1&#45;&gt;CALL_8b022e0</title>
+<title>COMMENT_89e1f40+1&#45;&gt;CALL_8b01900</title>
 <path fill="none" stroke="black" d="M500.5,-1263.44C500.5,-1255.69 500.5,-1246.51 500.5,-1237.99"/>
 <polygon fill="black" stroke="black" points="504,-1237.72 500.5,-1227.72 497,-1237.72 504,-1237.72"/>
 </g>
-<!-- COMMENT_8b03220+1 -->
+<!-- COMMENT_8b00780+1 -->
 <g id="node11" class="node">
-<title>COMMENT_8b03220+1</title>
+<title>COMMENT_8b00780+1</title>
 <polygon fill="none" stroke="black" points="840.5,-1155.72 154.5,-1155.72 154.5,-1119.72 846.5,-1119.72 846.5,-1149.72 840.5,-1155.72"/>
 <polyline fill="none" stroke="black" points="840.5,-1155.72 840.5,-1149.72 "/>
 <polyline fill="none" stroke="black" points="846.5,-1149.72 840.5,-1149.72 "/>
 <text text-anchor="middle" x="500.5" y="-1134.02" font-family="Times,serif" font-size="14.00">If this is a thin obstruction, use its actual user&#45;specified coordinates to determine THICKNESS</text>
 </g>
-<!-- CALL_8b022e0&#45;&gt;COMMENT_8b03220+1 -->
+<!-- CALL_8b01900&#45;&gt;COMMENT_8b00780+1 -->
 <g id="edge8" class="edge">
-<title>CALL_8b022e0&#45;&gt;COMMENT_8b03220+1</title>
+<title>CALL_8b01900&#45;&gt;COMMENT_8b00780+1</title>
 <path fill="none" stroke="black" d="M500.5,-1191.42C500.5,-1183.7 500.5,-1174.43 500.5,-1165.83"/>
 <polygon fill="black" stroke="black" points="504,-1165.82 500.5,-1155.82 497,-1165.82 504,-1165.82"/>
 </g>
-<!-- CALL_8b10200 -->
+<!-- CALL_8b11620 -->
 <g id="node12" class="node">
-<title>CALL_8b10200</title>
+<title>CALL_8b11620</title>
 <g id="a_node12"><a xlink:href="SHUTDOWN.svg" xlink:title="SHUTDOWN">
 <polygon fill="lightgray" stroke="black" points="554.5,-1083.72 446.5,-1083.72 446.5,-1079.72 442.5,-1079.72 442.5,-1075.72 446.5,-1075.72 446.5,-1055.72 442.5,-1055.72 442.5,-1051.72 446.5,-1051.72 446.5,-1047.72 554.5,-1047.72 554.5,-1083.72"/>
 <polyline fill="none" stroke="black" points="446.5,-1079.72 450.5,-1079.72 450.5,-1075.72 446.5,-1075.72 "/>
@@ -186,15 +186,15 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_8b03220+1&#45;&gt;CALL_8b10200 -->
+<!-- COMMENT_8b00780+1&#45;&gt;CALL_8b11620 -->
 <g id="edge9" class="edge">
-<title>COMMENT_8b03220+1&#45;&gt;CALL_8b10200</title>
+<title>COMMENT_8b00780+1&#45;&gt;CALL_8b11620</title>
 <path fill="none" stroke="black" d="M500.5,-1119.42C500.5,-1111.7 500.5,-1102.43 500.5,-1093.83"/>
 <polygon fill="black" stroke="black" points="504,-1093.82 500.5,-1083.82 497,-1093.82 504,-1093.82"/>
 </g>
-<!-- CALL_8b185e0 -->
+<!-- CALL_8b19ce0 -->
 <g id="node13" class="node">
-<title>CALL_8b185e0</title>
+<title>CALL_8b19ce0</title>
 <g id="a_node13"><a xlink:href="ADD_MATERIAL.svg" xlink:title="ADD_MATERIAL">
 <polygon fill="lightgray" stroke="black" points="567,-1011.72 434,-1011.72 434,-1007.72 430,-1007.72 430,-1003.72 434,-1003.72 434,-983.72 430,-983.72 430,-979.72 434,-979.72 434,-975.72 567,-975.72 567,-1011.72"/>
 <polyline fill="none" stroke="black" points="434,-1007.72 438,-1007.72 438,-1003.72 434,-1003.72 "/>
@@ -203,29 +203,29 @@
 </a>
 </g>
 </g>
-<!-- CALL_8b10200&#45;&gt;CALL_8b185e0 -->
+<!-- CALL_8b11620&#45;&gt;CALL_8b19ce0 -->
 <g id="edge10" class="edge">
-<title>CALL_8b10200&#45;&gt;CALL_8b185e0</title>
+<title>CALL_8b11620&#45;&gt;CALL_8b19ce0</title>
 <path fill="none" stroke="black" d="M500.5,-1047.42C500.5,-1039.7 500.5,-1030.43 500.5,-1021.83"/>
 <polygon fill="black" stroke="black" points="504,-1021.82 500.5,-1011.82 497,-1021.82 504,-1021.82"/>
 </g>
-<!-- COMMENT_8b13a20+1 -->
+<!-- COMMENT_8b2ec80+1 -->
 <g id="node14" class="node">
-<title>COMMENT_8b13a20+1</title>
+<title>COMMENT_8b2ec80+1</title>
 <polygon fill="none" stroke="black" points="628,-939.72 367,-939.72 367,-903.72 634,-903.72 634,-933.72 628,-939.72"/>
 <polyline fill="none" stroke="black" points="628,-939.72 628,-933.72 "/>
 <polyline fill="none" stroke="black" points="634,-933.72 628,-933.72 "/>
 <text text-anchor="middle" x="500.5" y="-918.02" font-family="Times,serif" font-size="14.00">Determine if the back face is found</text>
 </g>
-<!-- CALL_8b185e0&#45;&gt;COMMENT_8b13a20+1 -->
+<!-- CALL_8b19ce0&#45;&gt;COMMENT_8b2ec80+1 -->
 <g id="edge11" class="edge">
-<title>CALL_8b185e0&#45;&gt;COMMENT_8b13a20+1</title>
+<title>CALL_8b19ce0&#45;&gt;COMMENT_8b2ec80+1</title>
 <path fill="none" stroke="black" d="M500.5,-975.42C500.5,-967.7 500.5,-958.43 500.5,-949.83"/>
 <polygon fill="black" stroke="black" points="504,-949.82 500.5,-939.82 497,-949.82 504,-949.82"/>
 </g>
-<!-- CALL_8b3d8c0 -->
+<!-- CALL_8b3d000 -->
 <g id="node15" class="node">
-<title>CALL_8b3d8c0</title>
+<title>CALL_8b3d000</title>
 <g id="a_node15"><a xlink:href="REALLOCATE_INTEGER_ARRAY.svg" xlink:title="REALLOCATE_INTEGER_ARRAY">
 <polygon fill="lightgray" stroke="black" points="624.5,-867.72 376.5,-867.72 376.5,-863.72 372.5,-863.72 372.5,-859.72 376.5,-859.72 376.5,-839.72 372.5,-839.72 372.5,-835.72 376.5,-835.72 376.5,-831.72 624.5,-831.72 624.5,-867.72"/>
 <polyline fill="none" stroke="black" points="376.5,-863.72 380.5,-863.72 380.5,-859.72 376.5,-859.72 "/>
@@ -234,15 +234,15 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_8b13a20+1&#45;&gt;CALL_8b3d8c0 -->
+<!-- COMMENT_8b2ec80+1&#45;&gt;CALL_8b3d000 -->
 <g id="edge12" class="edge">
-<title>COMMENT_8b13a20+1&#45;&gt;CALL_8b3d8c0</title>
+<title>COMMENT_8b2ec80+1&#45;&gt;CALL_8b3d000</title>
 <path fill="none" stroke="black" d="M500.5,-903.42C500.5,-895.7 500.5,-886.43 500.5,-877.83"/>
 <polygon fill="black" stroke="black" points="504,-877.82 500.5,-867.82 497,-877.82 504,-877.82"/>
 </g>
-<!-- CALL_8b3ef20 -->
+<!-- CALL_8b3e7c0 -->
 <g id="node16" class="node">
-<title>CALL_8b3ef20</title>
+<title>CALL_8b3e7c0</title>
 <g id="a_node16"><a xlink:href="REALLOCATE_INTEGER_ARRAY.svg" xlink:title="REALLOCATE_INTEGER_ARRAY">
 <polygon fill="lightgray" stroke="black" points="624.5,-795.72 376.5,-795.72 376.5,-791.72 372.5,-791.72 372.5,-787.72 376.5,-787.72 376.5,-767.72 372.5,-767.72 372.5,-763.72 376.5,-763.72 376.5,-759.72 624.5,-759.72 624.5,-795.72"/>
 <polyline fill="none" stroke="black" points="376.5,-791.72 380.5,-791.72 380.5,-787.72 376.5,-787.72 "/>
@@ -251,34 +251,34 @@
 </a>
 </g>
 </g>
-<!-- CALL_8b3d8c0&#45;&gt;CALL_8b3ef20 -->
+<!-- CALL_8b3d000&#45;&gt;CALL_8b3e7c0 -->
 <g id="edge13" class="edge">
-<title>CALL_8b3d8c0&#45;&gt;CALL_8b3ef20</title>
+<title>CALL_8b3d000&#45;&gt;CALL_8b3e7c0</title>
 <path fill="none" stroke="black" d="M500.5,-831.42C500.5,-823.7 500.5,-814.43 500.5,-805.83"/>
 <polygon fill="black" stroke="black" points="504,-805.82 500.5,-795.82 497,-805.82 504,-805.82"/>
 </g>
-<!-- COMMENT_8b410e0+1 -->
+<!-- COMMENT_8b41640+1 -->
 <g id="node17" class="node">
-<title>COMMENT_8b410e0+1</title>
+<title>COMMENT_8b41640+1</title>
 <polygon fill="none" stroke="black" points="917.5,-723.72 77.5,-723.72 77.5,-687.72 923.5,-687.72 923.5,-717.72 917.5,-723.72"/>
 <polyline fill="none" stroke="black" points="917.5,-723.72 917.5,-717.72 "/>
 <polyline fill="none" stroke="black" points="923.5,-717.72 917.5,-717.72 "/>
 <text text-anchor="middle" x="500.5" y="-702.02" font-family="Times,serif" font-size="14.00">If 1&#45;D solid and the user&#45;specified thickness is less than the current thickness, abandon the search for back&#45;wall cell</text>
 </g>
-<!-- CALL_8b3ef20&#45;&gt;COMMENT_8b410e0+1 -->
+<!-- CALL_8b3e7c0&#45;&gt;COMMENT_8b41640+1 -->
 <g id="edge14" class="edge">
-<title>CALL_8b3ef20&#45;&gt;COMMENT_8b410e0+1</title>
+<title>CALL_8b3e7c0&#45;&gt;COMMENT_8b41640+1</title>
 <path fill="none" stroke="black" d="M500.5,-759.42C500.5,-751.7 500.5,-742.43 500.5,-733.83"/>
 <polygon fill="black" stroke="black" points="504,-733.82 500.5,-723.82 497,-733.82 504,-733.82"/>
 </g>
-<!-- COMMENT_8b410e0+1&#45;&gt;endDO_DO_8b46580 -->
+<!-- COMMENT_8b41640+1&#45;&gt;endDO_DO_8b46040 -->
 <g id="edge16" class="edge">
-<title>COMMENT_8b410e0+1&#45;&gt;endDO_DO_8b46580</title>
+<title>COMMENT_8b41640+1&#45;&gt;endDO_DO_8b46040</title>
 <path fill="none" stroke="black" d="M500.5,-687.66C500.5,-672.65 500.5,-652.99 500.5,-651.78"/>
 </g>
-<!-- CALL_8b4e7a0 -->
+<!-- CALL_8b4dd00 -->
 <g id="node19" class="node">
-<title>CALL_8b4e7a0</title>
+<title>CALL_8b4dd00</title>
 <g id="a_node19"><a xlink:href="ADD_MATERIAL.svg" xlink:title="ADD_MATERIAL">
 <polygon fill="lightgray" stroke="black" points="567,-541 434,-541 434,-537 430,-537 430,-533 434,-533 434,-513 430,-513 430,-509 434,-509 434,-505 567,-505 567,-541"/>
 <polyline fill="none" stroke="black" points="434,-537 438,-537 438,-533 434,-533 "/>
@@ -287,15 +287,15 @@
 </a>
 </g>
 </g>
-<!-- COMMENT_8b47ea0+1&#45;&gt;CALL_8b4e7a0 -->
+<!-- COMMENT_8b47aa0+1&#45;&gt;CALL_8b4dd00 -->
 <g id="edge18" class="edge">
-<title>COMMENT_8b47ea0+1&#45;&gt;CALL_8b4e7a0</title>
+<title>COMMENT_8b47aa0+1&#45;&gt;CALL_8b4dd00</title>
 <path fill="none" stroke="black" d="M500.5,-576.72C500.5,-568.97 500.5,-559.79 500.5,-551.27"/>
 <polygon fill="black" stroke="black" points="504,-551 500.5,-541 497,-551 504,-551"/>
 </g>
-<!-- CALL_8b532e0 -->
+<!-- CALL_8b529c0 -->
 <g id="node20" class="node">
-<title>CALL_8b532e0</title>
+<title>CALL_8b529c0</title>
 <g id="a_node20"><a xlink:href="ADD_MATERIAL.svg" xlink:title="ADD_MATERIAL">
 <polygon fill="lightgray" stroke="black" points="567,-469 434,-469 434,-465 430,-465 430,-461 434,-461 434,-441 430,-441 430,-437 434,-437 434,-433 567,-433 567,-469"/>
 <polyline fill="none" stroke="black" points="434,-465 438,-465 438,-461 434,-461 "/>
@@ -304,90 +304,90 @@
 </a>
 </g>
 </g>
-<!-- CALL_8b4e7a0&#45;&gt;CALL_8b532e0 -->
+<!-- CALL_8b4dd00&#45;&gt;CALL_8b529c0 -->
 <g id="edge19" class="edge">
-<title>CALL_8b4e7a0&#45;&gt;CALL_8b532e0</title>
+<title>CALL_8b4dd00&#45;&gt;CALL_8b529c0</title>
 <path fill="none" stroke="black" d="M500.5,-504.7C500.5,-496.98 500.5,-487.71 500.5,-479.11"/>
 <polygon fill="black" stroke="black" points="504,-479.1 500.5,-469.1 497,-479.1 504,-479.1"/>
 </g>
-<!-- COMMENT_8b53ae0+1 -->
+<!-- COMMENT_8b41340+1 -->
 <g id="node21" class="node">
-<title>COMMENT_8b53ae0+1</title>
+<title>COMMENT_8b41340+1</title>
 <polygon fill="none" stroke="black" points="716.5,-397 278.5,-397 278.5,-361 722.5,-361 722.5,-391 716.5,-397"/>
 <polyline fill="none" stroke="black" points="716.5,-397 716.5,-391 "/>
 <polyline fill="none" stroke="black" points="722.5,-391 716.5,-391 "/>
 <text text-anchor="middle" x="500.5" y="-375.3" font-family="Times,serif" font-size="14.00">Offset the coordinates of the wall face to account for linings</text>
 </g>
-<!-- CALL_8b532e0&#45;&gt;COMMENT_8b53ae0+1 -->
+<!-- CALL_8b529c0&#45;&gt;COMMENT_8b41340+1 -->
 <g id="edge20" class="edge">
-<title>CALL_8b532e0&#45;&gt;COMMENT_8b53ae0+1</title>
+<title>CALL_8b529c0&#45;&gt;COMMENT_8b41340+1</title>
 <path fill="none" stroke="black" d="M500.5,-432.7C500.5,-424.98 500.5,-415.71 500.5,-407.11"/>
 <polygon fill="black" stroke="black" points="504,-407.1 500.5,-397.1 497,-407.1 504,-407.1"/>
 </g>
-<!-- COMMENT_8b5b760+1 -->
+<!-- COMMENT_8b5b100+1 -->
 <g id="node22" class="node">
-<title>COMMENT_8b5b760+1</title>
+<title>COMMENT_8b5b100+1</title>
 <polygon fill="none" stroke="black" points="743,-325 252,-325 252,-289 749,-289 749,-319 743,-325"/>
 <polyline fill="none" stroke="black" points="743,-325 743,-319 "/>
 <polyline fill="none" stroke="black" points="749,-319 743,-319 "/>
 <text text-anchor="middle" x="500.5" y="-303.3" font-family="Times,serif" font-size="14.00">Copy the front face SURF layer information into the holding arrays</text>
 </g>
-<!-- COMMENT_8b53ae0+1&#45;&gt;COMMENT_8b5b760+1 -->
+<!-- COMMENT_8b41340+1&#45;&gt;COMMENT_8b5b100+1 -->
 <g id="edge21" class="edge">
-<title>COMMENT_8b53ae0+1&#45;&gt;COMMENT_8b5b760+1</title>
+<title>COMMENT_8b41340+1&#45;&gt;COMMENT_8b5b100+1</title>
 <path fill="none" stroke="black" d="M500.5,-360.7C500.5,-352.98 500.5,-343.71 500.5,-335.11"/>
 <polygon fill="black" stroke="black" points="504,-335.1 500.5,-325.1 497,-335.1 504,-335.1"/>
 </g>
-<!-- COMMENT_8b67c60+1 -->
+<!-- COMMENT_8b670a0+1 -->
 <g id="node23" class="node">
-<title>COMMENT_8b67c60+1</title>
+<title>COMMENT_8b670a0+1</title>
 <polygon fill="none" stroke="black" points="735.5,-253 259.5,-253 259.5,-217 741.5,-217 741.5,-247 735.5,-253"/>
 <polyline fill="none" stroke="black" points="735.5,-253 735.5,-247 "/>
 <polyline fill="none" stroke="black" points="741.5,-247 735.5,-247 "/>
 <text text-anchor="middle" x="500.5" y="-231.3" font-family="Times,serif" font-size="14.00">Add layers that are associated with the underlying OBSTructions</text>
 </g>
-<!-- COMMENT_8b5b760+1&#45;&gt;COMMENT_8b67c60+1 -->
+<!-- COMMENT_8b5b100+1&#45;&gt;COMMENT_8b670a0+1 -->
 <g id="edge22" class="edge">
-<title>COMMENT_8b5b760+1&#45;&gt;COMMENT_8b67c60+1</title>
+<title>COMMENT_8b5b100+1&#45;&gt;COMMENT_8b670a0+1</title>
 <path fill="none" stroke="black" d="M500.5,-288.7C500.5,-280.98 500.5,-271.71 500.5,-263.11"/>
 <polygon fill="black" stroke="black" points="504,-263.1 500.5,-253.1 497,-263.1 504,-263.1"/>
 </g>
-<!-- COMMENT_8b798e0+1 -->
+<!-- COMMENT_8b79360+1 -->
 <g id="node24" class="node">
-<title>COMMENT_8b798e0+1</title>
+<title>COMMENT_8b79360+1</title>
 <polygon fill="none" stroke="black" points="643.5,-181 351.5,-181 351.5,-145 649.5,-145 649.5,-175 643.5,-181"/>
 <polyline fill="none" stroke="black" points="643.5,-181 643.5,-175 "/>
 <polyline fill="none" stroke="black" points="649.5,-175 643.5,-175 "/>
 <text text-anchor="middle" x="500.5" y="-159.3" font-family="Times,serif" font-size="14.00">Add layers from the back surface lining</text>
 </g>
-<!-- COMMENT_8b67c60+1&#45;&gt;COMMENT_8b798e0+1 -->
+<!-- COMMENT_8b670a0+1&#45;&gt;COMMENT_8b79360+1 -->
 <g id="edge23" class="edge">
-<title>COMMENT_8b67c60+1&#45;&gt;COMMENT_8b798e0+1</title>
+<title>COMMENT_8b670a0+1&#45;&gt;COMMENT_8b79360+1</title>
 <path fill="none" stroke="black" d="M500.5,-216.7C500.5,-208.98 500.5,-199.71 500.5,-191.11"/>
 <polygon fill="black" stroke="black" points="504,-191.1 500.5,-181.1 497,-191.1 504,-191.1"/>
 </g>
-<!-- COMMENT_8b86980+1 -->
+<!-- COMMENT_8b85580+1 -->
 <g id="node25" class="node">
-<title>COMMENT_8b86980+1</title>
+<title>COMMENT_8b85580+1</title>
 <polygon fill="none" stroke="black" points="871,-109 124,-109 124,-73 877,-73 877,-103 871,-109"/>
 <polyline fill="none" stroke="black" points="871,-109 871,-103 "/>
 <polyline fill="none" stroke="black" points="877,-103 871,-103 "/>
 <text text-anchor="middle" x="500.5" y="-87.3" font-family="Times,serif" font-size="14.00">Reallocate ONE_D arrays holding layer and material info for HT3D and VARIABLE_THICKNESS objects</text>
 </g>
-<!-- COMMENT_8b798e0+1&#45;&gt;COMMENT_8b86980+1 -->
+<!-- COMMENT_8b79360+1&#45;&gt;COMMENT_8b85580+1 -->
 <g id="edge24" class="edge">
-<title>COMMENT_8b798e0+1&#45;&gt;COMMENT_8b86980+1</title>
+<title>COMMENT_8b79360+1&#45;&gt;COMMENT_8b85580+1</title>
 <path fill="none" stroke="black" d="M500.5,-144.7C500.5,-136.98 500.5,-127.71 500.5,-119.11"/>
 <polygon fill="black" stroke="black" points="504,-119.1 500.5,-109.1 497,-119.1 504,-119.1"/>
 </g>
-<!-- end_SUBPROGRAM_8b48400 -->
+<!-- end_SUBPROGRAM_8b17e60 -->
 <g id="node26" class="node">
-<title>end_SUBPROGRAM_8b48400</title>
+<title>end_SUBPROGRAM_8b17e60</title>
 <ellipse fill="black" stroke="black" cx="500.5" cy="-30" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_8b86980+1&#45;&gt;end_SUBPROGRAM_8b48400 -->
+<!-- COMMENT_8b85580+1&#45;&gt;end_SUBPROGRAM_8b17e60 -->
 <g id="edge25" class="edge">
-<title>COMMENT_8b86980+1&#45;&gt;end_SUBPROGRAM_8b48400</title>
+<title>COMMENT_8b85580+1&#45;&gt;end_SUBPROGRAM_8b17e60</title>
 <path fill="none" stroke="black" d="M500.5,-72.93C500.5,-64.89 500.5,-55.33 500.5,-47.37"/>
 <polygon fill="black" stroke="black" points="504,-47.22 500.5,-37.22 497,-47.22 504,-47.22"/>
 </g>

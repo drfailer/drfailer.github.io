@@ -10,14 +10,14 @@
 <title>INITIALIZE_RADIATION_EXCHANGE</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-225 1021,-225 1021,4 -4,4"/>
 <text text-anchor="middle" x="508.5" y="-7.8" font-family="Times,serif" font-size="14.00">INITIALIZE_RADIATION_EXCHANGE</text>
-<!-- start_SUBPROGRAM_8fbfa20 -->
+<!-- start_SUBPROGRAM_7dd0840 -->
 <g id="node1" class="node">
-<title>start_SUBPROGRAM_8fbfa20</title>
+<title>start_SUBPROGRAM_7dd0840</title>
 <ellipse fill="none" stroke="black" cx="508.5" cy="-214" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_8fb5e00+1 -->
+<!-- COMMENT_7dc5f00+1 -->
 <g id="node2" class="node">
-<title>COMMENT_8fb5e00+1</title>
+<title>COMMENT_7dc5f00+1</title>
 <polygon fill="none" stroke="black" points="1011,-171 0,-171 0,-73 1017,-73 1017,-165 1011,-171"/>
 <polyline fill="none" stroke="black" points="1011,-171 1011,-165 "/>
 <polyline fill="none" stroke="black" points="1017,-165 1011,-165 "/>
@@ -28,20 +28,20 @@
 <text text-anchor="middle" x="508.5" y="-95.8" font-family="Times,serif" font-size="14.00">!&gt; in radi.f90 and then sent to MESHES(NOM)%OMESH(NM)%IL_R in MESH_EXCHANGE. IL_R holds the intensities until they are</text>
 <text text-anchor="middle" x="508.5" y="-80.8" font-family="Times,serif" font-size="14.00">!&gt; transferred to the ghost cells of MESHES(NOM)%IL in radi.f90. The IL_S and IL_R arrays are indexed by NIC_S and NIC_R.</text>
 </g>
-<!-- start_SUBPROGRAM_8fbfa20&#45;&gt;COMMENT_8fb5e00+1 -->
+<!-- start_SUBPROGRAM_7dd0840&#45;&gt;COMMENT_7dc5f00+1 -->
 <g id="edge1" class="edge">
-<title>start_SUBPROGRAM_8fbfa20&#45;&gt;COMMENT_8fb5e00+1</title>
+<title>start_SUBPROGRAM_7dd0840&#45;&gt;COMMENT_7dc5f00+1</title>
 <path fill="none" stroke="black" d="M508.5,-206.81C508.5,-201.04 508.5,-191.77 508.5,-181.47"/>
 <polygon fill="black" stroke="black" points="512,-181.36 508.5,-171.36 505,-181.36 512,-181.36"/>
 </g>
-<!-- end_SUBPROGRAM_8fbfa20 -->
+<!-- end_SUBPROGRAM_7dd0840 -->
 <g id="node3" class="node">
-<title>end_SUBPROGRAM_8fbfa20</title>
+<title>end_SUBPROGRAM_7dd0840</title>
 <ellipse fill="black" stroke="black" cx="508.5" cy="-30" rx="7" ry="7"/>
 </g>
-<!-- COMMENT_8fb5e00+1&#45;&gt;end_SUBPROGRAM_8fbfa20 -->
+<!-- COMMENT_7dc5f00+1&#45;&gt;end_SUBPROGRAM_7dd0840 -->
 <g id="edge2" class="edge">
-<title>COMMENT_8fb5e00+1&#45;&gt;end_SUBPROGRAM_8fbfa20</title>
+<title>COMMENT_7dc5f00+1&#45;&gt;end_SUBPROGRAM_7dd0840</title>
 <path fill="none" stroke="black" d="M508.5,-72.84C508.5,-63.62 508.5,-54.59 508.5,-47.28"/>
 <polygon fill="black" stroke="black" points="512,-47.18 508.5,-37.18 505,-47.18 512,-47.18"/>
 </g>
